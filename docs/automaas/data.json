@@ -1,5 +1,185 @@
 [
   {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-26 09:11:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-26 09:09:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-26 08:53:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-26 08:51:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-26 07:39:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-26 07:38:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-25 23:05:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-25 23:01:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-25 21:54:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-25 21:51:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-25 21:47:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-25 20:46:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 865.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-25 20:43:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 819.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-25 20:42:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 508.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-25 13:08:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-25 09:29:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-25 09:27:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-25 07:41:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 2087.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-25 07:40:22",
@@ -28,6 +208,146 @@
     "id_transito": "19962b9eb25a8accbb4cc438c25e3321"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 07:22:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 07:20:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 07:16:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 06:46:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-25 06:45:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 06:45:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-25 06:42:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 06:41:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 06:40:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 06:38:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 06:35:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-24 21:52:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-24 21:50:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-24 21:46:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-24 20:19:48",
@@ -40,6 +360,156 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "35eff7dcf266c0db5468f1c3e1a86bad"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-24 09:33:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-24 09:32:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-24 07:33:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-24 07:32:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 348.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 07:11:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 07:08:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 07:05:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 06:41:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 06:40:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 06:37:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 06:37:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 06:34:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 06:31:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-23 20:42:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-23 20:40:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -56,6 +526,46 @@
     "id_transito": "13f864d488f105b5066d98d2ab385d66"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LJDV98",
+    "fecha_entrada": "2026-09-23 19:00:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 348.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LJDV98",
+    "fecha_entrada": "2026-09-23 18:57:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-23 09:21:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-23 09:03:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-23 08:37:18",
@@ -68,6 +578,96 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "710ea124b36af70d4aa77b690dc1c0f9"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 07:05:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 07:03:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 07:00:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 06:40:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 06:39:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 06:36:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 06:35:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 06:33:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 06:30:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -112,6 +712,76 @@
     "id_transito": "4dbe746f96190a73c324fadd8522a63d"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 18:37:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-22 15:55:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-22 15:50:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-22 15:49:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-22 15:47:00",
+    "portico_entrada": "P9 PO",
+    "portico_salida": "---",
+    "tarifa": 535.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-22 09:28:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-22 09:11:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "KXZS95",
     "fecha_entrada": "2026-09-22 08:30:03",
@@ -124,6 +794,126 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "e057e06881687618f30e882d2994e703"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 07:08:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 07:06:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 07:03:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 06:40:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 06:39:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 06:36:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 06:36:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 06:33:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 06:30:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-21 21:56:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-21 21:54:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-21 21:50:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -168,6 +958,86 @@
     "id_transito": "39c81428d6d1e822ad1cfec24a61b7d1"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 13:45:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 13:41:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 13:39:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 13:38:00",
+    "portico_entrada": "P9 PO",
+    "portico_salida": "---",
+    "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 09:10:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-21 09:10:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-21 09:08:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 08:56:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "KZGL59",
     "fecha_entrada": "2026-09-21 08:48:01",
@@ -208,6 +1078,186 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "e6e85ded5b4cea8f8da8126573fad3bf"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 07:08:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 07:06:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 07:02:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 06:40:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 06:39:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 06:36:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 06:35:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 06:33:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 06:30:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-21 02:12:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-21 02:07:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:48:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:46:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:43:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:25:00",
+    "portico_entrada": "P7 PO",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:22:00",
+    "portico_entrada": "P8.0PO",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:20:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:18:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -252,6 +1302,36 @@
     "id_transito": "ecef4c04cc0eb69cd954e037907e25b8"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-20 09:09:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-20 09:08:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 08:50:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "KZGL59",
     "fecha_entrada": "2026-09-20 08:47:55",
@@ -264,6 +1344,36 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "9ed97daaac63a5573786432ea7e0c817"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 08:43:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-20 08:32:00",
+    "portico_entrada": "P2.2OP",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-20 08:21:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -308,6 +1418,66 @@
     "id_transito": "9eed67fad07f3a9fc6f870ec4138067c"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 06:42:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 06:41:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 06:38:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 06:37:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 06:34:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 06:32:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-19 20:14:59",
@@ -350,6 +1520,76 @@
     "id_transito": "270d0e7af51f452105c607884d66adc3"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-19 18:36:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-19 18:35:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-19 18:33:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-19 18:31:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-19 08:51:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-19 08:49:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LJDV98",
+    "fecha_entrada": "2026-09-19 08:21:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-19 08:18:18",
@@ -364,6 +1604,56 @@
     "id_transito": "c673a04ec38e1ec75e4bd2a6dcda7dc0"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-19 04:18:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-19 04:14:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AMB",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-19 03:28:00",
+    "portico_entrada": "P30 NS",
+    "portico_salida": "---",
+    "tarifa": 889.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-19 03:26:00",
+    "portico_entrada": "P9 OP",
+    "portico_salida": "---",
+    "tarifa": 535.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-18 22:51:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-18 20:30:22",
@@ -376,6 +1666,56 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "725121b03e0bace22fd568f55d04babf"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-18 20:27:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-18 15:48:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-18 09:06:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-18 09:04:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "PJHJ69",
+    "fecha_entrada": "2026-09-18 08:41:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -406,6 +1746,96 @@
     "id_transito": "1415ae235be459b5f8c1b8ff92250406"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-17 20:45:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 20:25:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1590.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-17 19:07:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-17 19:06:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-17 18:51:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1204.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-17 11:55:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-17 09:39:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-17 09:16:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-17 09:14:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-17 08:28:55",
@@ -418,6 +1848,126 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "61b03c4b8ea895b5435ef14a3adcd9bb"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 07:17:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 07:15:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 07:11:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 06:43:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 06:42:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 06:40:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 06:39:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 06:36:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 06:34:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-17 04:08:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-16 23:13:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 20:28:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 795.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -462,6 +2012,86 @@
     "id_transito": "b862cdf961b27f51adcc992f4c1c6abb"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-16 18:44:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1204.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-16 18:31:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-16 18:28:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-16 15:42:00",
+    "portico_entrada": "P9 OP",
+    "portico_salida": "---",
+    "tarifa": 535.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-16 15:41:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-16 09:59:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-16 09:17:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-16 09:15:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "KZGL59",
     "fecha_entrada": "2026-09-16 08:54:42",
@@ -502,6 +2132,226 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "1dad93abf51d00ea913a288bae89b42e"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 07:16:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 07:14:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 07:10:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 06:42:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 06:41:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 06:38:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 06:37:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 06:35:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 06:32:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-15 22:40:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-15 20:52:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-15 20:51:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 20:24:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1590.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-15 19:04:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1204.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-15 18:47:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-15 18:45:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-15 18:17:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-15 13:44:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-15 13:40:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-15 13:38:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-15 13:37:00",
+    "portico_entrada": "P9 PO",
+    "portico_salida": "---",
+    "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-15 09:15:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -546,6 +2396,136 @@
     "id_transito": "0d930299630d2e62c791eb47cf01be3c"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 07:20:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 07:18:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 07:14:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-15 06:47:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-15 06:44:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 06:41:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 06:40:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 06:37:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 06:37:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 06:34:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 06:31:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-15 05:33:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-15 05:22:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-14 20:22:09",
@@ -574,6 +2554,16 @@
     "id_transito": "d05141e8eeab2e9af82a889aa6c124fc"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 19:21:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 2756.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-14 19:19:09",
@@ -586,6 +2576,176 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "a82e49b2adccd9c4e73c15f3ecff8edf"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-14 10:29:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-14 10:27:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-14 08:54:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-14 08:43:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 07:13:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 07:11:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 07:07:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 06:40:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 06:39:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 06:35:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 06:33:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 06:30:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 22:44:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 22:39:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 21:51:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 21:49:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 21:46:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -602,6 +2762,26 @@
     "id_transito": "dd972938ce7dfad03891e5ce6de7f66d"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 20:04:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 20:00:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-13 18:54:54",
@@ -614,6 +2794,26 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "3937f81f48549760d23529c3dc608f4d"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-13 18:53:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-13 18:51:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -630,6 +2830,46 @@
     "id_transito": "6052bee48ec3612e4a0804424552e521"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-13 18:32:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 09:17:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 08:49:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-13 08:49:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-13 08:28:45",
@@ -644,6 +2884,76 @@
     "id_transito": "dd6926ea24b1d718550b0ab48eb3cb1d"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "PJHJ69",
+    "fecha_entrada": "2026-09-13 02:10:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "PJHJ69",
+    "fecha_entrada": "2026-09-13 02:08:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "PJHJ69",
+    "fecha_entrada": "2026-09-13 02:07:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-12 22:51:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-12 21:58:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-12 21:56:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-12 21:52:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-12 20:15:15",
@@ -656,6 +2966,36 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "062cedb413f02e011487ee59afd2e11b"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 19:21:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 19:19:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1431.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 19:05:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -700,6 +3040,466 @@
     "id_transito": "57b4376a073cdfbf5837b6f6e2febb0b"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 06:41:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 06:39:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 06:36:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 06:35:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 06:33:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 06:30:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "PJHJ69",
+    "fecha_entrada": "2026-09-12 04:16:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "PJHJ69",
+    "fecha_entrada": "2026-09-12 04:13:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "PJHJ69",
+    "fecha_entrada": "2026-09-12 04:12:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-11 22:28:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-11 18:53:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 348.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-11 18:49:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-11 15:52:00",
+    "portico_entrada": "P9 OP",
+    "portico_salida": "---",
+    "tarifa": 535.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-11 15:51:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-11 09:12:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-11 09:10:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 07:15:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 07:13:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 07:09:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 06:48:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 06:47:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 06:44:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 06:43:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 06:41:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 06:38:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-10 23:44:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-10 20:57:00",
+    "portico_entrada": "P9 OP",
+    "portico_salida": "---",
+    "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-10 20:56:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 19:14:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1204.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 19:13:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-10 09:08:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-10 09:07:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 07:15:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 07:12:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 2248.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 07:09:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 06:49:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 06:48:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 06:45:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 06:44:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 06:41:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 06:38:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 03:46:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-09 22:27:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-09 21:51:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-09 21:49:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-09 21:44:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-09 20:23:59",
@@ -712,6 +3512,206 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "9dbfbcbd6ff0a6909aef6b9c64576a59"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 19:12:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1204.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 19:11:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-09 18:17:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-09 18:15:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-09 13:02:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-09 09:27:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-09 09:26:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 07:08:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 07:06:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 07:02:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 06:42:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 06:40:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 06:38:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 06:37:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 06:34:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 06:31:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-08 22:22:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-08 21:58:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-08 21:55:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-08 21:51:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -728,6 +3728,176 @@
     "id_transito": "a9a75853f6f67e772dbf7a80884c6a4a"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 19:14:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 1204.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 19:13:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-08 18:25:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-08 18:23:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-08 09:52:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-08 09:51:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-08 09:36:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-08 09:34:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 07:24:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 07:22:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 07:18:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 06:50:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 06:49:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 06:47:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 06:46:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 06:43:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 06:40:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-08 01:22:34",
@@ -740,6 +3910,246 @@
     "estado": "No Facturada",
     "boleta": "---",
     "id_transito": "2729fbdb00cac3d6a44e3a5c488ee740"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-08 00:52:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-08 00:49:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-08 00:43:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-07 23:05:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-07 23:01:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-07 22:05:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-07 22:04:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 19:17:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 07:22:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 07:19:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 07:15:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 06:50:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 06:49:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 06:46:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 06:45:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 06:42:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 06:39:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-07 05:45:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-06 23:25:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-06 18:28:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-06 18:26:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-06 13:47:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LJDV98",
+    "fecha_entrada": "2026-09-06 10:30:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LJDV98",
+    "fecha_entrada": "2026-09-06 08:45:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -770,6 +4180,1526 @@
     "id_transito": "fe5e6336125183565a3abaeed3cef9bf"
   },
   {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:51:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:48:00",
+    "portico_entrada": "P2.2OP",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:47:00",
+    "portico_entrada": "P2.1OP",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:45:00",
+    "portico_entrada": "P1 O P",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:43:00",
+    "portico_entrada": "P0 OP",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:36:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:34:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:32:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:31:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:28:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 06:26:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-09-05 22:25:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-09-05 22:11:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-05 18:58:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-05 18:57:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-05 18:36:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-05 18:34:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-05 11:46:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-05 11:41:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LJDV98",
+    "fecha_entrada": "2026-09-05 08:39:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 119.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 06:40:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 06:38:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 06:36:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 06:35:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 06:32:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 06:30:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-04 21:52:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-04 21:50:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-04 21:46:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 19:20:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 19:18:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 13:52:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 13:48:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 13:45:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 13:44:00",
+    "portico_entrada": "P9 PO",
+    "portico_salida": "---",
+    "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 07:08:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 2768.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 07:06:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 07:03:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 06:41:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 06:40:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 06:37:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 06:36:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 06:34:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 06:31:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-04 04:20:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-04 04:16:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-03 22:49:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-03 22:32:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 21:54:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 21:51:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 21:47:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 19:10:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 1404.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 19:09:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 922.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-03 18:47:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-03 18:45:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-03 13:49:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-03 13:44:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-03 13:43:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-03 13:41:00",
+    "portico_entrada": "P9 PO",
+    "portico_salida": "---",
+    "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 07:10:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 07:08:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 07:04:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 06:43:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 06:42:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 06:39:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 06:38:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 06:35:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 06:33:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 20:26:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 795.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-02 14:17:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-02 14:12:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-02 14:10:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-02 14:09:00",
+    "portico_entrada": "P9 PO",
+    "portico_salida": "---",
+    "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-02 09:50:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-02 09:31:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-02 09:29:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 07:13:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 07:10:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 07:07:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 06:46:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 06:45:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 06:42:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 06:41:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 06:38:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 06:35:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-01 23:18:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-01 23:14:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-01 22:37:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-01 21:53:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-01 21:51:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-01 21:46:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-01 18:48:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-01 18:46:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-01 09:37:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-01 09:36:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 07:02:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:59:00",
+    "portico_entrada": "P2.1OP",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:59:00",
+    "portico_entrada": "P2.2OP",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:56:00",
+    "portico_entrada": "P1 O P",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:55:00",
+    "portico_entrada": "P0 OP",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:50:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:48:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:45:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:44:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:41:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 06:38:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-31 23:27:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 20:27:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 795.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-08-31 18:42:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-08-31 18:40:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-31 09:15:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-31 09:14:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 07:26:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-31 07:25:00",
+    "portico_entrada": "EV",
+    "portico_salida": "---",
+    "tarifa": 229.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 07:23:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 07:19:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 06:49:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 06:48:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 06:45:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 851.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 06:44:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 06:41:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 06:37:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-08-30 21:49:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-08-30 21:47:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-08-30 21:44:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-08-30 21:15:00",
+    "portico_entrada": "P7 PO",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-08-30 21:11:00",
+    "portico_entrada": "P8.0PO",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-08-30 21:09:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LKGZ52",
+    "fecha_entrada": "2026-08-30 21:07:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-30 20:25:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 18:14:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 18:13:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-30 13:18:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-30 08:38:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 08:30:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 08:28:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 08:25:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 06:50:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 06:48:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 06:44:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 06:43:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 06:40:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 06:37:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-30 04:15:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:49:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 719.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:48:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:44:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:10:00",
+    "portico_entrada": "P8.0PO",
+    "portico_salida": "---",
+    "tarifa": 583.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:09:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 306.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:06:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:05:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 21:01:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "AVO",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-08-29 20:22:59",
@@ -782,6 +5712,116 @@
     "estado": "Facturada",
     "boleta": "3582779",
     "id_transito": "9af25f34aeb1f3dc4e8c691fe46c3916"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 19:35:00",
+    "portico_entrada": "P6.2OP",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 19:33:00",
+    "portico_entrada": "P6.1OP",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-29 17:45:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-29 17:43:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-29 10:27:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 06:39:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 06:38:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 898.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 06:35:00",
+    "portico_entrada": "P2.1PO",
+    "portico_salida": "---",
+    "tarifa": 425.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 06:34:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 06:31:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 06:29:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
@@ -824,6 +5864,146 @@
     "estado": "Facturada",
     "boleta": "3582779",
     "id_transito": "f240bd0d15f4b5e16c73fed058397949"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 13:49:00",
+    "portico_entrada": "P5 PO",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 13:44:00",
+    "portico_entrada": "P6.1PO",
+    "portico_salida": "---",
+    "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 13:43:00",
+    "portico_entrada": "P6.2PO",
+    "portico_salida": "---",
+    "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 13:41:00",
+    "portico_entrada": "P9 PO",
+    "portico_salida": "---",
+    "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 12:56:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 08:56:00",
+    "portico_entrada": "P5 OP",
+    "portico_salida": "---",
+    "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 07:14:00",
+    "portico_entrada": "P3 OP",
+    "portico_salida": "---",
+    "tarifa": 1384.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 07:12:00",
+    "portico_entrada": "P8.0OP",
+    "portico_salida": "---",
+    "tarifa": 1124.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 07:09:00",
+    "portico_entrada": "P7 OP",
+    "portico_salida": "---",
+    "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 06:44:00",
+    "portico_entrada": "P0 PO",
+    "portico_salida": "---",
+    "tarifa": 149.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 06:43:00",
+    "portico_entrada": "P1 P O",
+    "portico_salida": "---",
+    "tarifa": 449.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 06:40:00",
+    "portico_entrada": "P2.2PO",
+    "portico_salida": "---",
+    "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 06:37:00",
+    "portico_entrada": "P3 PO",
+    "portico_salida": "---",
+    "tarifa": 612.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "Costanera Norte",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 06:34:00",
+    "portico_entrada": "P4 PO",
+    "portico_salida": "---",
+    "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
