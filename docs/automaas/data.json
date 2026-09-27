@@ -2492,6 +2492,16 @@
   {
     "autopista": "RutaPass",
     "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-27 05:15:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
     "fecha_entrada": "2026-09-26 23:40:00",
     "portico_entrada": "T2 - Rinconada Oriente [R78]",
     "portico_salida": "---",
