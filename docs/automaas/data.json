@@ -50,6 +50,66 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-27 05:15:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-26 23:40:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-26 18:40:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-26 18:38:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-26 16:49:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-26 13:51:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-26 09:11:00",
@@ -66,6 +126,26 @@
     "portico_entrada": "P5 PO",
     "portico_salida": "---",
     "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-26 09:00:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-26 08:58:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -190,12 +270,62 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 18:25:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 18:22:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-25 17:57:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "KDRJ20",
     "fecha_entrada": "2026-09-25 13:08:00",
     "portico_entrada": "P5 OP",
     "portico_salida": "---",
     "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-25 12:18:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-25 12:15:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -220,6 +350,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-25 09:21:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-25 09:19:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "HXJJ44",
     "fecha_entrada": "2026-09-25 07:41:00",
@@ -228,34 +378,6 @@
     "tarifa": 2087.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LDWP36",
-    "fecha_entrada": "2026-09-25 07:40:22",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-25 07:40:22",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 534.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "46a851f61fa402288225e74dbf0bfedd"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LDWP36",
-    "fecha_entrada": "2026-09-25 07:35:14",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-25 07:38:58",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2538.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "19962b9eb25a8accbb4cc438c25e3321"
   },
   {
     "autopista": "Costanera Norte",
@@ -398,18 +520,44 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-24 20:19:48",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-24 20:25:40",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 18:32:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "35eff7dcf266c0db5468f1c3e1a86bad"
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 18:29:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-24 17:11:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-24 13:11:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -428,6 +576,26 @@
     "portico_entrada": "P6.2PO",
     "portico_salida": "---",
     "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-24 09:22:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-24 09:19:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -562,20 +730,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-23 20:22:51",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-23 20:28:38",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "13f864d488f105b5066d98d2ab385d66"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LJDV98",
     "fecha_entrada": "2026-09-23 19:00:00",
@@ -592,6 +746,36 @@
     "portico_entrada": "P5 PO",
     "portico_salida": "---",
     "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 18:33:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 18:30:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-23 17:16:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -614,20 +798,6 @@
     "tarifa": 229.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-23 08:37:18",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-23 08:44:12",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 4333.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "710ea124b36af70d4aa77b690dc1c0f9"
   },
   {
     "autopista": "Costanera Norte",
@@ -720,46 +890,34 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-22 20:23:26",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-22 20:29:04",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 21:26:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "f2f6b63400f0de5b87c68f2143e39ea5"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-22 19:25:33",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-22 19:25:33",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 534.0,
-    "tipo_tarifa": "TBP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 21:13:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "b6c01a390348ca03a807ebb3d6c71d4d"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-22 19:20:32",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-22 19:24:04",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2538.0,
-    "tipo_tarifa": "TBP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-22 21:10:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "4dbe746f96190a73c324fadd8522a63d"
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -832,20 +990,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-09-22 08:30:03",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-22 08:35:51",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 4333.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "e057e06881687618f30e882d2994e703"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-22 07:08:00",
@@ -872,6 +1016,16 @@
     "portico_entrada": "P7 OP",
     "portico_salida": "---",
     "tarifa": 963.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-22 06:42:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -916,6 +1070,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-22 06:36:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-22 06:33:00",
@@ -932,6 +1096,16 @@
     "portico_entrada": "P4 PO",
     "portico_salida": "---",
     "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-09-22 05:24:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -966,46 +1140,34 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-21 20:18:40",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-21 20:24:34",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 21:32:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "e9b45d55d76f4b6628795c678e72c186"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-21 19:21:40",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-21 19:21:40",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 534.0,
-    "tipo_tarifa": "TBP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 21:17:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "2d324670e37b80f8f8f2a37e3bdff306"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-21 19:16:39",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-21 19:20:11",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2538.0,
-    "tipo_tarifa": "TBP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-21 21:14:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "39c81428d6d1e822ad1cfec24a61b7d1"
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -1044,6 +1206,26 @@
     "portico_entrada": "P9 PO",
     "portico_salida": "---",
     "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 10:53:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 09:38:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -1088,48 +1270,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-21 08:48:01",
-    "portico_entrada": "C. Empresarial - El Salto",
-    "fecha_salida": "2026-09-21 08:53:05",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 3998.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "2ef9d65f62be703584f990485d707e35"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-21 07:28:17",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-21 07:28:17",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "754e69cca3d375e994984c581ff549aa"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-21 07:24:00",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-21 07:27:00",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "e6e85ded5b4cea8f8da8126573fad3bf"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-21 07:08:00",
@@ -1156,6 +1296,16 @@
     "portico_entrada": "P7 OP",
     "portico_salida": "---",
     "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 06:41:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -1190,6 +1340,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 06:36:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-21 06:35:00",
@@ -1216,6 +1376,16 @@
     "portico_entrada": "P4 PO",
     "portico_salida": "---",
     "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-21 05:28:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -1310,46 +1480,54 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-20 20:18:50",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-20 20:24:53",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:08:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 1077.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "fe59bc7813d86348a8133e36391a49d0"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-20 19:02:44",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-20 19:02:44",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 21:07:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "c27f64e02b0647d7c967d4ff08c671ae"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-20 18:57:26",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-20 19:01:07",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 21:06:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 495.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "ecef4c04cc0eb69cd954e037907e25b8"
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 20:53:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-20 20:51:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -1372,6 +1550,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 09:06:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 09:04:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "KXZS95",
     "fecha_entrada": "2026-09-20 08:50:00",
@@ -1380,20 +1578,6 @@
     "tarifa": 715.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-20 08:47:55",
-    "portico_entrada": "C. Empresarial - El Salto",
-    "fecha_salida": "2026-09-20 08:53:19",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1999.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "9ed97daaac63a5573786432ea7e0c817"
   },
   {
     "autopista": "Costanera Norte",
@@ -1426,46 +1610,24 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-20 08:19:37",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-20 08:21:25",
-    "portico_salida": "Costanera Norte Oriente",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 704.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 06:46:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "ba09778a6d95fd1c927ec9d593861c7d"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-20 07:33:57",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-20 07:33:57",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 06:44:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "5e10997a23541b20d42ef16f69f18cba"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-20 07:29:32",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-20 07:32:31",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "9eed67fad07f3a9fc6f870ec4138067c"
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -1528,46 +1690,34 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-19 20:14:59",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-19 20:20:22",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-20 05:45:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "b29263251a014826fbd1ce6545f188fa"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-19 19:00:34",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-19 19:00:34",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-19 20:57:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "4d452d12ee2ded1c671df2fb20af377a"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-19 18:55:46",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-19 18:59:08",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-19 20:55:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "270d0e7af51f452105c607884d66adc3"
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -1640,18 +1790,34 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LDWP36",
-    "fecha_entrada": "2026-09-19 08:18:18",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-19 08:23:35",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-19 06:49:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "c673a04ec38e1ec75e4bd2a6dcda7dc0"
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-19 06:47:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-19 05:40:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -1694,6 +1860,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-18 23:26:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-18 23:24:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "KXZS95",
     "fecha_entrada": "2026-09-18 22:51:00",
@@ -1704,26 +1890,32 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-18 20:30:22",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-18 20:35:56",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "725121b03e0bace22fd568f55d04babf"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-18 20:27:00",
     "portico_entrada": "P4 PO",
     "portico_salida": "---",
     "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-18 18:49:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-18 18:47:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -1768,32 +1960,24 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
+    "autopista": "RutaPass",
     "patente": "KZGL59",
-    "fecha_entrada": "2026-09-18 08:22:08",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-18 08:27:12",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "fecha_entrada": "2026-09-17 23:03:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "2022b8ef4674563d2de41b9686de23e5"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-17 20:59:39",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-17 21:04:58",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "KZGL59",
+    "fecha_entrada": "2026-09-17 23:00:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "1415ae235be459b5f8c1b8ff92250406"
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -1832,6 +2016,26 @@
     "portico_entrada": "P6.2PO",
     "portico_salida": "---",
     "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 18:57:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-17 18:54:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -1884,20 +2088,6 @@
     "tarifa": 702.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-17 08:28:55",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-17 08:34:59",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 4333.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "61b03c4b8ea895b5435ef14a3adcd9bb"
   },
   {
     "autopista": "Costanera Norte",
@@ -2010,6 +2200,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 21:06:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-16 20:28:00",
@@ -2020,46 +2220,34 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-16 20:25:15",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-16 20:30:58",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 18:50:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "74ca7dfd2b1f94631f99536f734126fc"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-16 20:07:48",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-16 20:07:48",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-16 18:48:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "b2469f18d73df69fc9056bc6c242701d"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-16 20:02:55",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-16 20:06:15",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-16 18:45:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "b862cdf961b27f51adcc992f4c1c6abb"
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -2112,6 +2300,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-16 15:14:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-16 12:15:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "KXZS95",
     "fecha_entrada": "2026-09-16 09:59:00",
@@ -2140,48 +2348,6 @@
     "tarifa": 702.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-16 08:54:42",
-    "portico_entrada": "C. Empresarial - El Salto",
-    "fecha_salida": "2026-09-16 09:00:14",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 3998.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "f61bf0b315a85efab1fcc09f9abf6715"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-16 07:26:08",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-16 07:26:08",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "d86ae2f7a1a89946b9c9240d37501c9c"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-16 07:21:59",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-16 07:24:48",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "1dad93abf51d00ea913a288bae89b42e"
   },
   {
     "autopista": "Costanera Norte",
@@ -2324,6 +2490,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 18:53:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 18:50:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-15 18:47:00",
@@ -2402,48 +2588,6 @@
     "tarifa": 715.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-15 08:22:34",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-15 08:27:25",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 4333.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "519a39c31df3424462d4ff58300cf9d5"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-15 08:00:02",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-15 08:00:02",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 534.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "530ad23d65f79ac07efc4e02a46b5caa"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KZGL59",
-    "fecha_entrada": "2026-09-15 07:56:02",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-15 07:58:48",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2538.0,
-    "tipo_tarifa": "TBP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "0d930299630d2e62c791eb47cf01be3c"
   },
   {
     "autopista": "Costanera Norte",
@@ -2576,32 +2720,44 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-14 20:22:09",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-14 20:28:08",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-15 04:54:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "045f57aa01d9ae9511fabf50881c2821"
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-14 19:24:18",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-14 19:24:18",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 534.0,
-    "tipo_tarifa": "TBP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 21:31:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "d05141e8eeab2e9af82a889aa6c124fc"
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 21:11:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-14 21:08:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -2614,18 +2770,14 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-14 19:19:09",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-14 19:22:45",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2538.0,
-    "tipo_tarifa": "TBP",
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-14 13:38:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "a82e49b2adccd9c4e73c15f3ecff8edf"
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -2718,12 +2870,32 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-14 06:38:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-14 06:35:00",
     "portico_entrada": "P2.2PO",
     "portico_salida": "---",
     "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-14 06:35:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -2744,6 +2916,26 @@
     "portico_entrada": "P4 PO",
     "portico_salida": "---",
     "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-14 05:21:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 23:05:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -2798,18 +2990,24 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LDWP36",
-    "fecha_entrada": "2026-09-13 20:17:52",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-13 20:23:07",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-13 21:36:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "dd972938ce7dfad03891e5ce6de7f66d"
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-13 21:23:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -2832,20 +3030,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LDWP36",
-    "fecha_entrada": "2026-09-13 18:54:54",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-13 18:54:54",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "3937f81f48549760d23529c3dc608f4d"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-13 18:53:00",
@@ -2866,20 +3050,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LDWP36",
-    "fecha_entrada": "2026-09-13 18:49:53",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-13 18:53:23",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "6052bee48ec3612e4a0804424552e521"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-13 18:32:00",
@@ -2896,6 +3066,26 @@
     "portico_entrada": "P6.1PO",
     "portico_salida": "---",
     "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 09:06:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 09:04:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -2920,18 +3110,34 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-13 08:28:45",
-    "portico_entrada": "C. Empresarial - El Salto",
-    "fecha_salida": "2026-09-13 08:34:33",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1999.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 06:36:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "dd6926ea24b1d718550b0ab48eb3cb1d"
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 06:34:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 05:37:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -2960,6 +3166,16 @@
     "portico_entrada": "P5 PO",
     "portico_salida": "---",
     "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-13 01:06:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3004,18 +3220,24 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-12 20:15:15",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-12 20:20:35",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 21:39:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
     "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "062cedb413f02e011487ee59afd2e11b"
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-12 21:19:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -3046,48 +3268,6 @@
     "tarifa": 715.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-12 08:29:36",
-    "portico_entrada": "C. Empresarial - El Salto",
-    "fecha_salida": "2026-09-12 08:35:16",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1999.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "ac4dd31209104e6988f8247970d32df2"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-12 07:08:44",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-12 07:08:44",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "aff4cd95ec008113e02e50661ba61229"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-12 07:03:06",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-12 07:07:03",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "57b4376a073cdfbf5837b6f6e2febb0b"
   },
   {
     "autopista": "Costanera Norte",
@@ -3190,6 +3370,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 21:51:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-11 21:35:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "HXJJ44",
     "fecha_entrada": "2026-09-11 18:53:00",
@@ -3226,6 +3426,56 @@
     "portico_entrada": "P6.2OP",
     "portico_salida": "---",
     "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-11 09:58:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-11 09:24:00",
+    "portico_entrada": "T3 - Padre Hurtado Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-11 09:20:00",
+    "portico_entrada": "T3 - Padre Hurtado Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 225.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-11 09:15:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-11 09:13:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3340,12 +3590,32 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-11 06:07:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "KXZS95",
     "fecha_entrada": "2026-09-10 23:44:00",
     "portico_entrada": "P6.1PO",
     "portico_salida": "---",
     "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 21:32:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3386,6 +3656,76 @@
     "portico_entrada": "P5 PO",
     "portico_salida": "---",
     "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 18:45:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 18:42:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-10 17:10:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 13:56:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 11:08:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 09:12:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 09:10:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3436,6 +3776,16 @@
     "portico_entrada": "P7 OP",
     "portico_salida": "---",
     "tarifa": 481.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 07:01:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3500,12 +3850,32 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 05:21:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ24",
     "fecha_entrada": "2026-09-10 03:46:00",
     "portico_entrada": "P5 OP",
     "portico_salida": "---",
     "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ24",
+    "fecha_entrada": "2026-09-10 00:39:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3550,20 +3920,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-09 20:23:59",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-09 20:29:44",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "9dbfbcbd6ff0a6909aef6b9c64576a59"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-09 19:12:00",
@@ -3580,6 +3936,26 @@
     "portico_entrada": "P5 PO",
     "portico_salida": "---",
     "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 18:32:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 18:30:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3604,12 +3980,52 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-09 17:20:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-09 14:37:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "HXJJ44",
     "fecha_entrada": "2026-09-09 13:02:00",
     "portico_entrada": "P5 OP",
     "portico_salida": "---",
     "tarifa": 1378.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-09 10:37:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-09 10:34:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3630,6 +4046,26 @@
     "portico_entrada": "P6.2PO",
     "portico_salida": "---",
     "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-09 09:26:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-09 09:24:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3724,6 +4160,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-08 23:03:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-08 22:22:00",
@@ -3764,20 +4210,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-09-08 20:20:28",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-09-08 20:26:21",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "a9a75853f6f67e772dbf7a80884c6a4a"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-08 19:14:00",
@@ -3798,6 +4230,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 18:34:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-08 18:30:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "HXJJ44",
     "fecha_entrada": "2026-09-08 18:25:00",
@@ -3814,6 +4266,26 @@
     "portico_entrada": "P6.2PO",
     "portico_salida": "---",
     "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-08 14:42:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-08 12:33:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3854,6 +4326,26 @@
     "portico_entrada": "P6.2PO",
     "portico_salida": "---",
     "tarifa": 702.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-08 09:18:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-08 09:16:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -3948,20 +4440,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-08 01:22:34",
-    "portico_entrada": "C. Empresarial - El Salto",
-    "fecha_salida": "2026-09-08 01:29:32",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1999.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "2729fbdb00cac3d6a44e3a5c488ee740"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "KZGL59",
     "fecha_entrada": "2026-09-08 00:52:00",
@@ -4012,6 +4490,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-07 22:59:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "HXJJ44",
     "fecha_entrada": "2026-09-07 22:05:00",
@@ -4038,6 +4526,76 @@
     "portico_entrada": "P5 PO",
     "portico_salida": "---",
     "tarifa": 715.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 18:36:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 18:33:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-07 18:04:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-07 14:08:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-07 12:04:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-07 09:29:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-09-07 09:27:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4152,6 +4710,46 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 21:40:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 21:38:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 21:25:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-06 21:23:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "HXJJ44",
     "fecha_entrada": "2026-09-06 18:28:00",
@@ -4200,34 +4798,6 @@
     "tarifa": 119.0,
     "estado": "No Facturada",
     "boleta": "---"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-06 07:16:23",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-09-06 07:16:23",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "c0e06cd27637a5b5304e82ca8d63f5af"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-09-06 07:10:59",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-09-06 07:14:45",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "No Facturada",
-    "boleta": "---",
-    "id_transito": "fe5e6336125183565a3abaeed3cef9bf"
   },
   {
     "autopista": "Costanera Norte",
@@ -4356,6 +4926,36 @@
     "portico_entrada": "P6.1OP",
     "portico_salida": "---",
     "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 21:27:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 21:05:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-05 21:02:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4490,6 +5090,36 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-05 06:23:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-05 06:20:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-05 05:48:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-04 21:52:00",
@@ -4510,12 +5140,42 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 21:49:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-09-04 21:46:00",
     "portico_entrada": "P7 OP",
     "portico_salida": "---",
     "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 21:35:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 21:32:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4536,6 +5196,26 @@
     "portico_entrada": "P6.1OP",
     "portico_salida": "---",
     "tarifa": 461.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 18:32:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 18:30:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4576,6 +5256,16 @@
     "portico_entrada": "P9 PO",
     "portico_salida": "---",
     "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 09:27:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4640,6 +5330,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 06:37:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-04 06:36:00",
@@ -4660,12 +5360,32 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 06:32:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-04 06:31:00",
     "portico_entrada": "P4 PO",
     "portico_salida": "---",
     "tarifa": 826.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "HXJJ44",
+    "fecha_entrada": "2026-09-04 05:46:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4686,6 +5406,16 @@
     "portico_entrada": "P6.1PO",
     "portico_salida": "---",
     "tarifa": 239.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-04 01:32:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4740,6 +5470,36 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 21:02:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 20:48:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 20:46:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-03 19:10:00",
@@ -4780,6 +5540,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 18:39:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-03 18:36:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "CYPW26",
     "fecha_entrada": "2026-09-03 13:49:00",
@@ -4816,6 +5596,26 @@
     "portico_entrada": "P9 PO",
     "portico_salida": "---",
     "tarifa": 1030.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 09:14:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 09:12:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4870,6 +5670,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 06:42:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-03 06:39:00",
@@ -4886,6 +5696,16 @@
     "portico_entrada": "P2.2PO",
     "portico_salida": "---",
     "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 06:37:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4910,12 +5730,62 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-03 05:34:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 21:48:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 21:04:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-02 20:26:00",
     "portico_entrada": "P4 PO",
     "portico_salida": "---",
     "tarifa": 795.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 18:40:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-09-02 18:37:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -4990,6 +5860,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-02 09:02:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-02 09:00:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-09-02 07:13:00",
@@ -5056,6 +5946,16 @@
     "portico_entrada": "P2.2PO",
     "portico_salida": "---",
     "tarifa": 264.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-09-02 06:41:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -5140,6 +6040,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 21:00:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "HXJJ44",
     "fecha_entrada": "2026-09-01 18:48:00",
@@ -5156,6 +6066,26 @@
     "portico_entrada": "P6.2PO",
     "portico_salida": "---",
     "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 18:21:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-09-01 18:19:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -5330,6 +6260,26 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 18:40:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-31 18:37:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "KXZS95",
     "fecha_entrada": "2026-08-31 09:15:00",
@@ -5450,6 +6400,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-30 23:44:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LKGZ52",
     "fecha_entrada": "2026-08-30 21:49:00",
@@ -5526,6 +6486,26 @@
     "portico_entrada": "P4 PO",
     "portico_salida": "---",
     "tarifa": 413.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-30 18:47:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-30 18:45:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -5660,6 +6640,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-30 05:10:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LPPZ31",
     "fecha_entrada": "2026-08-30 04:15:00",
@@ -5696,6 +6686,36 @@
     "portico_entrada": "P7 OP",
     "portico_salida": "---",
     "tarifa": 250.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 21:29:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 21:15:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-29 21:13:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -5750,20 +6770,6 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LPPZ31",
-    "fecha_entrada": "2026-08-29 20:22:59",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-08-29 20:28:37",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "9af25f34aeb1f3dc4e8c691fe46c3916"
-  },
-  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-08-29 19:35:00",
@@ -5800,6 +6806,26 @@
     "portico_entrada": "P6.2PO",
     "portico_salida": "---",
     "tarifa": 364.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-29 17:34:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-29 15:00:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
     "estado": "No Facturada",
     "boleta": "---"
   },
@@ -5864,6 +6890,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-29 06:30:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-08-29 06:29:00",
@@ -5874,46 +6910,54 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-08-28 20:21:29",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-08-28 20:27:17",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "1f879925531d4eb785b19344d249880e"
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-29 06:28:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-08-28 19:11:31",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-28 19:11:31",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 534.0,
-    "tipo_tarifa": "TBP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "e70e298bcd6659676dcfe9daf14c78d1"
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-29 05:49:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-08-28 19:05:46",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-28 19:09:54",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2538.0,
-    "tipo_tarifa": "TBP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "f240bd0d15f4b5e16c73fed058397949"
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 21:25:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 21:11:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-28 21:09:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "Costanera Norte",
@@ -6046,6 +7090,16 @@
     "boleta": "---"
   },
   {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 06:36:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
     "autopista": "Costanera Norte",
     "patente": "LDWP36",
     "fecha_entrada": "2026-08-28 06:34:00",
@@ -6056,339 +7110,1993 @@
     "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-08-26 19:10:58",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-26 19:10:58",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 534.0,
-    "tipo_tarifa": "TBP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "12fd9c6039688d5776bf1d4a5d7e0610"
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 06:32:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-08-26 19:05:45",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-26 19:09:20",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2538.0,
-    "tipo_tarifa": "TBP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "9391b4b2aa966ed02813e60f831f2035"
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-28 05:13:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-08-21 20:20:37",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-08-21 20:26:33",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "02af6c6391cf7ec7deb31ddfe99b60ac"
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-27 21:25:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
-    "patente": "LJDV98",
-    "fecha_entrada": "2026-08-20 20:21:42",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-08-20 20:29:59",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2167.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "99865d8584d63437f9aac305774c3a90"
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-27 21:10:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-27 21:08:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-27 10:04:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-27 06:36:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-27 06:31:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-27 05:00:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-26 21:34:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-26 21:20:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-26 21:18:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-26 18:31:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-26 18:28:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-26 09:33:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-26 09:25:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-26 08:53:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-26 08:50:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-26 06:44:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-26 06:40:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-26 05:53:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-25 21:04:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-25 18:43:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-25 18:41:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-25 17:30:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-25 09:42:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-25 09:38:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-25 09:06:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-25 09:05:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-25 06:41:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-24 18:41:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-24 18:38:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-24 17:46:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-24 09:11:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-24 09:08:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-24 06:27:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-24 06:27:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-23 20:55:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-23 19:51:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-23 19:49:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-23 18:42:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-23 18:40:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-23 17:30:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-23 08:36:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-23 08:35:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-22 23:42:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-22 18:42:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-22 17:38:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-22 14:47:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-22 11:35:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-22 09:28:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 23:51:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-21 21:26:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-21 21:12:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-21 21:10:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 17:38:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 12:59:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 12:56:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 09:52:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 09:51:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 06:34:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 06:29:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-21 05:44:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 22:56:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 22:41:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 22:38:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
     "patente": "KZGL59",
-    "fecha_entrada": "2026-08-19 07:23:48",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-19 07:23:48",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "cb680083b76d3e5b9809af993f916b6f"
+    "fecha_entrada": "2026-08-20 21:16:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
-    "autopista": "AVO",
+    "autopista": "RutaPass",
     "patente": "KZGL59",
-    "fecha_entrada": "2026-08-19 07:18:10",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-19 07:22:04",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
+    "fecha_entrada": "2026-08-20 21:14:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 09:31:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 09:29:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 06:43:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 06:39:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-20 05:33:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LPPZ31",
+    "fecha_entrada": "2026-08-20 05:08:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-19 21:20:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-19 21:07:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-19 21:04:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-19 18:35:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-19 18:33:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-19 09:13:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-19 09:11:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-19 06:41:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-19 06:36:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-19 05:31:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-18 21:07:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-18 20:52:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-18 18:51:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-18 18:49:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-18 08:58:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-18 08:56:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-18 06:39:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-18 06:34:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-18 06:11:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-17 21:41:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-17 21:38:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-17 18:38:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-17 18:36:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-17 14:11:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-17 09:15:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-17 09:13:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 23:10:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 22:42:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 22:40:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 20:11:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 20:09:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-16 18:46:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-16 18:44:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 15:44:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 15:42:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 12:51:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-16 12:49:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-15 23:14:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-15 21:12:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-15 21:10:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-15 18:43:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-15 18:41:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-15 10:57:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-15 10:51:00",
+    "portico_entrada": "T3 - Padre Hurtado Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-15 10:45:00",
+    "portico_entrada": "T4 - Malloco Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-15 10:32:00",
+    "portico_entrada": "T4 - Malloco Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 225.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-15 10:28:00",
+    "portico_entrada": "T3 - Padre Hurtado Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 225.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-15 10:22:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-15 08:53:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-15 08:51:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-14 23:36:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-14 18:24:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 1436.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-14 18:22:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-14 13:16:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-14 11:58:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-14 09:20:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 23:44:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 23:42:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "CYPW26",
+    "fecha_entrada": "2026-08-13 22:26:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-13 20:49:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-13 20:47:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 2513.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 14:44:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 12:31:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 10:16:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 06:33:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 06:29:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-13 04:58:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-12 21:06:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-12 20:50:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-12 20:47:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 1436.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-12 17:03:00",
+    "portico_entrada": "T4 - Malloco Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-12 17:01:00",
+    "portico_entrada": "T4 - Malloco Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 225.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-12 16:57:00",
+    "portico_entrada": "T3 - Padre Hurtado Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 225.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-12 16:52:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-12 16:49:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-11 21:21:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-11 21:08:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-11 16:58:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-11 16:53:00",
+    "portico_entrada": "T3 - Padre Hurtado Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-11 16:49:00",
+    "portico_entrada": "T4 - Malloco Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-11 16:35:00",
+    "portico_entrada": "T4 - Malloco Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 225.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-11 16:31:00",
+    "portico_entrada": "T3 - Padre Hurtado Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 225.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KXZS95",
+    "fecha_entrada": "2026-08-11 16:27:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-11 06:25:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-11 05:14:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-10 20:54:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 660.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "LDWP36",
+    "fecha_entrada": "2026-08-10 20:52:00",
+    "portico_entrada": "T1 - Vespucio Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 1436.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-10 10:12:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-10 09:15:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-10 06:50:00",
+    "portico_entrada": "T1 - Vespucio Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 718.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-10 06:46:00",
+    "portico_entrada": "T2 - Rinconada Oriente [R78]",
+    "portico_salida": "---",
+    "tarifa": 0.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "RutaPass",
+    "patente": "KDRJ20",
+    "fecha_entrada": "2026-08-10 05:52:00",
+    "portico_entrada": "T2 - Rinconada Poniente [R78]",
+    "portico_salida": "---",
+    "tarifa": 330.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "HXJJ44",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 932.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KXZS95",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
     "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
     "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "f445b69f1a04e3004bd13cbfd6409d38"
+    "boleta": "3582779"
   },
   {
     "autopista": "AVO",
     "patente": "KXZS95",
-    "fecha_entrada": "2026-08-16 03:52:18",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-16 03:52:18",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
     "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
     "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "2f9831163b017ba0b26572816151592b"
+    "boleta": "3582779"
   },
   {
     "autopista": "AVO",
     "patente": "KXZS95",
-    "fecha_entrada": "2026-08-16 03:48:16",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-16 03:51:07",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "0e1c2114c2e6dcb2d9f8eca4c47d5fc9"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-15 03:38:23",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-15 03:38:23",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "6d68d81109997fed89fd055095a09f59"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-15 03:33:51",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-15 03:37:00",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "6eaeabc6908ad9c97e91aa80e1f3008a"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-14 13:38:10",
-    "portico_entrada": "Viaducto",
-    "fecha_salida": "2026-08-14 13:45:07",
-    "portico_salida": "Isabel la Católica",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 2001.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "18a3e78e75ba0c2c7d1884c1baa98390"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-14 03:24:40",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-14 03:24:40",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "25e313cf649337cfc47cd1193f84936c"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-14 03:20:11",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-14 03:23:26",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "95d60d7957956b11e4e67d4ae24d3823"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-13 21:03:33",
-    "portico_entrada": "Acceso Av. Vitacura",
-    "fecha_salida": "2026-08-13 21:06:10",
-    "portico_salida": "Tobalaba",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 948.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "6834b7116eb2fea7289242c7a9691ddb"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-13 14:28:44",
-    "portico_entrada": "Martin de Zamora",
-    "fecha_salida": "2026-08-13 14:30:59",
-    "portico_salida": "Salida Kennedy Oriente",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 608.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "5f00953f99ac48b30e25f229f320026d"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-13 03:17:31",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-13 03:17:31",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "2672574c56dc5c8be904f327bdeaa059"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-13 03:13:30",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-13 03:16:21",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "cb394562344d4a8a4dd0726220ba956b"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-12 14:04:23",
-    "portico_entrada": "Presidente Riesco",
-    "fecha_salida": "2026-08-12 14:05:30",
-    "portico_salida": "Salida Kennedy Poniente",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 242.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "fc91bf7fe09fd68f0df3e32849693c2e"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-12 03:17:02",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-12 03:17:02",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "351e666d09ca507eef708a7885d3cd4a"
-  },
-  {
-    "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-12 03:13:40",
-    "portico_entrada": "Martin de Zamora",
-    "fecha_salida": "2026-08-12 03:15:50",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
     "tarifa": 978.0,
-    "tipo_tarifa": "TBFP",
     "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "5e119c68d920d67f53a18abeeb6b0425"
+    "boleta": "3582779"
   },
   {
     "autopista": "AVO",
     "patente": "KXZS95",
-    "fecha_entrada": "2026-08-11 03:48:17",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-11 03:48:17",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
-    "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 242.0,
     "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "98863e9dd90a92369fc8812dfd860fcf"
+    "boleta": "3582779"
   },
   {
     "autopista": "AVO",
     "patente": "KXZS95",
-    "fecha_entrada": "2026-08-11 03:44:11",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-11 03:47:07",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 608.0,
+    "estado": "Facturada",
+    "boleta": "3582779"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KXZS95",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 948.0,
+    "estado": "Facturada",
+    "boleta": "3582779"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KXZS95",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2001.0,
+    "estado": "Facturada",
+    "boleta": "3582779"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KXZS95",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 4333.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
     "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "6e6c0242e09aa42d11bcc3153aae0948"
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-10 03:20:20",
-    "portico_entrada": "La Pirámide",
-    "fecha_salida": "2026-08-10 03:20:20",
-    "portico_salida": "La Pirámide",
-    "categoria": "Automóviles y Camionetas",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
     "tarifa": 267.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "8bbbf7f8d3aa09a45d11cb8bd269c28f"
+    "estado": "No Facturada",
+    "boleta": "---"
   },
   {
     "autopista": "AVO",
-    "patente": "KXZS95",
-    "fecha_entrada": "2026-08-10 03:16:10",
-    "portico_entrada": "Bilbao",
-    "fecha_salida": "2026-08-10 03:19:07",
-    "portico_salida": "Pte. Centenario",
-    "categoria": "Automóviles y Camionetas",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2538.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 534.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 4333.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 3998.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2167.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 704.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "KZGL59",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 1999.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LDWP36",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
     "tarifa": 1269.0,
-    "tipo_tarifa": "TBFP",
-    "estado": "Facturada",
-    "boleta": "3582779",
-    "id_transito": "2b53009cc0622791e50ab1b89787298c"
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LDWP36",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 267.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LDWP36",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2167.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LDWP36",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2538.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LDWP36",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 534.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LJDV98",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2167.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LJDV98",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2538.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LJDV98",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 534.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LJDV98",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 1269.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LJDV98",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 267.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LJDV98",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 4333.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LPPZ31",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 2167.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LPPZ31",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 1269.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LPPZ31",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 267.0,
+    "estado": "No Facturada",
+    "boleta": "---"
+  },
+  {
+    "autopista": "AVO",
+    "patente": "LPPZ31",
+    "fecha_entrada": "",
+    "portico_entrada": "---",
+    "portico_salida": "---",
+    "tarifa": 1999.0,
+    "estado": "No Facturada",
+    "boleta": "---"
   }
 ]
