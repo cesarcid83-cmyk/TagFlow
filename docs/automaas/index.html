@@ -43,13 +43,6 @@
           PDF
         </button>
 
-        <button onclick="exportarGoogleSheets()" class="inline-flex items-center gap-1.5 bg-green-700 hover:bg-green-600 text-white text-xs font-semibold px-3 py-2 rounded-lg shadow-sm transition" title="Copia los datos al portapapeles y abre Google Sheets para pegar directo">
-          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-          </svg>
-          Google Sheets
-        </button>
-
         <div class="h-6 w-px bg-slate-700 mx-1 hidden sm:block"></div>
 
         <button onclick="cargarDatos()" class="text-xs bg-slate-700 hover:bg-slate-600 text-slate-200 px-3 py-2 rounded-lg border border-slate-600 transition">
@@ -60,17 +53,6 @@
   </header>
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
-
-    <!-- Notificación Flotante para Google Sheets -->
-    <div id="toastNotificacion" class="hidden fixed bottom-6 right-6 z-50 bg-emerald-600 text-white px-4 py-3 rounded-xl shadow-xl flex items-center gap-3 transition">
-      <svg class="w-5 h-5 text-emerald-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-      </svg>
-      <div>
-        <p class="text-xs font-bold" id="toastTitulo">¡Datos copiados al portapapeles!</p>
-        <p class="text-[11px] text-emerald-100" id="toastDesc">Solo presiona Ctrl + V en la celda A1 de Google Sheets.</p>
-      </div>
-    </div>
 
     <!-- Panel de Filtros -->
     <section class="bg-slate-800/70 border border-slate-700/60 rounded-xl p-5 shadow-sm space-y-4">
@@ -730,45 +712,6 @@
 
       const fechaStr = new Date().toISOString().slice(0, 10).replace(/-/g, "");
       doc.save(`TagFlow_Automaas_${fechaStr}.pdf`);
-    }
-
-    async function exportarGoogleSheets() {
-      if (datosFiltradosActuales.length === 0) {
-        alert("No hay registros para exportar.");
-        return;
-      }
-
-      const datos = prepararDatosParaExportar();
-      const columnas = Object.keys(datos[0]);
-      
-      // Formato TSV (Tab-Separated Values) que Google Sheets interpreta automáticamente en celdas perfectas al hacer Ctrl + V
-      let tsv = columnas.join("\t") + "\n";
-      datos.forEach(row => {
-        const fila = columnas.map(col => {
-          let val = row[col] === null || row[col] === undefined ? "" : String(row[col]);
-          return val.replace(/\t/g, " ").replace(/\n/g, " ");
-        });
-        tsv += fila.join("\t") + "\n";
-      });
-
-      try {
-        await navigator.clipboard.writeText(tsv);
-        mostrarToast("¡Datos copiados al portapapeles!", "En la hoja que se abrió, presiona Ctrl + V en la celda A1.");
-      } catch (err) {
-        console.error("No se pudo copiar directo:", err);
-      }
-
-      window.open("https://sheets.new", "_blank");
-    }
-
-    function mostrarToast(titulo, desc) {
-      const toast = document.getElementById('toastNotificacion');
-      document.getElementById('toastTitulo').innerText = titulo;
-      document.getElementById('toastDesc').innerText = desc;
-      toast.classList.remove('hidden');
-      setTimeout(() => {
-        toast.classList.add('hidden');
-      }, 7000);
     }
 
     cargarDatos();
