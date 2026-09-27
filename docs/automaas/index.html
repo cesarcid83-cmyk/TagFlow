@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TagFlow | AUTOMAAS</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- SheetJS (Excel) -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <!-- jsPDF & AutoTable (PDF) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen">
+
+  <!-- Encabezado -->
+  <header class="bg-slate-800/80 backdrop-blur border-b border-slate-700/60 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="bg-blue-600 text-white text-xs font-bold px-2 py-0.5 rounded tracking-wider uppercase">TAGFLOW</span>
+          <span class="text-slate-500 font-bold">|</span>
+          <h1 class="text-xl font-bold tracking-tight text-white uppercase">AUTOMAAS</h1>
+        </div>
+      </div>
+
+      <!-- Barra de Acciones y Exportaciones -->
+      <div class="flex flex-wrap items-center gap-2">
+        <button onclick="exportarExcel()" class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold px-3 py-2 rounded-lg shadow-sm transition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+          Excel
+        </button>
+
+        <button onclick="exportarPDF()" class="inline-flex items-center gap-1.5 bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold px-3 py-2 rounded-lg shadow-sm transition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+          </svg>
+          PDF
+        </button>
+
+        <button onclick="exportarGoogleSheets()" class="inline-flex items-center gap-1.5 bg-green-700 hover:bg-green-600 text-white text-xs font-semibold px-3 py-2 rounded-lg shadow-sm transition" title="Descarga CSV compatible y abre Google Sheets">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+          </svg>
+          Google Sheets
+        </button>
+
+        <div class="h-6 w-px bg-slate-700 mx-1 hidden sm:block"></div>
+
+        <button onclick="cargarDatos()" class="text-xs bg-slate-700 hover:bg-slate-600 text-slate-200 px-3 py-2 rounded-lg border border-slate-600 transition">
+          Actualizar
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+
+    <!-- Panel de Filtros -->
+    <section class="bg-slate-800/70 border border-slate-700/60 rounded-xl p-5 shadow-sm space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-700/40 pb-3">
+        <h2 class="text-sm font-semibold text-slate-200">Filtros</h2>
+        <button onclick="limpiarFiltros()" class="text-xs text-blue-400 hover:text-blue-300 underline">
+          Restablecer Filtros
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+        <!-- Fecha y Hora Desde -->
+        <div>
+          <label class="block text-[11px] font-medium text-slate-400 mb-1">Fecha y Hora Desde</label>
+          <input type="datetime-local" id="filtroFechaHoraDesde" min="2025-01-01T00:00" max="2030-12-31T23:59" onchange="aplicarFiltros()" class="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg px-2.5 py-2 focus:ring-1 focus:ring-blue-500 outline-none">
+        </div>
+
+        <!-- Fecha y Hora Hasta -->
+        <div>
+          <label class="block text-[11px] font-medium text-slate-400 mb-1">Fecha y Hora Hasta</label>
+          <input type="datetime-local" id="filtroFechaHoraHasta" min="2025-01-01T00:00" max="2030-12-31T23:59" onchange="aplicarFiltros()" class="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg px-2.5 py-2 focus:ring-1 focus:ring-blue-500 outline-none">
+        </div>
+
+        <!-- Selector Multipatente -->
+        <div class="relative">
+          <label class="block text-[11px] font-medium text-slate-400 mb-1">Patentes</label>
+          <button type="button" id="btnDropdownPatentes" onclick="toggleDropdown('dropdownPatentes')" class="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg px-2.5 py-2 text-left flex items-center justify-between outline-none">
+            <span id="textoSelectorPatentes" class="truncate">Todas las patentes</span>
+            <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+
+          <!-- Menú desplegable multipatente -->
+          <div id="dropdownPatentes" class="hidden absolute top-full mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg shadow-xl p-2.5 z-40 space-y-2">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-1.5 text-[10px]">
+              <button type="button" onclick="seleccionarTodasPatentes(true)" class="text-blue-400 hover:text-blue-300 font-semibold">Todas</button>
+              <button type="button" onclick="seleccionarTodasPatentes(false)" class="text-slate-400 hover:text-slate-300">Ninguna</button>
+            </div>
+            <div id="listaCheckboxesPatentes" class="max-h-44 overflow-y-auto space-y-1.5 pr-1"></div>
+          </div>
+        </div>
+
+        <!-- Selector Multiautopista -->
+        <div class="relative">
+          <label class="block text-[11px] font-medium text-slate-400 mb-1">Autopistas</label>
+          <button type="button" id="btnDropdownAutopistas" onclick="toggleDropdown('dropdownAutopistas')" class="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg px-2.5 py-2 text-left flex items-center justify-between outline-none">
+            <span id="textoSelectorAutopistas" class="truncate">Todas las autopistas</span>
+            <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+
+          <!-- Menú desplegable multiautopista -->
+          <div id="dropdownAutopistas" class="hidden absolute top-full mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg shadow-xl p-2.5 z-40 space-y-2">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-1.5 text-[10px]">
+              <button type="button" onclick="seleccionarTodasAutopistas(true)" class="text-blue-400 hover:text-blue-300 font-semibold">Todas</button>
+              <button type="button" onclick="seleccionarTodasAutopistas(false)" class="text-slate-400 hover:text-slate-300">Ninguna</button>
+            </div>
+            <div id="listaCheckboxesAutopistas" class="max-h-44 overflow-y-auto space-y-1.5 pr-1"></div>
+          </div>
+        </div>
+
+        <!-- Estado de Facturación -->
+        <div>
+          <label class="block text-[11px] font-medium text-slate-400 mb-1">Estado</label>
+          <select id="filtroEstado" onchange="aplicarFiltros()" class="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg px-2.5 py-2 focus:ring-1 focus:ring-blue-500 outline-none">
+            <option value="">Todos los estados</option>
+            <option value="Facturada">Facturada</option>
+            <option value="No Facturada">No Facturada</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tarjetas KPI -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+      <!-- 1. Total -->
+      <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Total</p>
+          <p id="kpiTotalGasto" class="text-2xl font-black text-white mt-1">$0</p>
+        </div>
+        <span class="text-[10px] text-slate-500 mt-2">en base a datos filtrados</span>
+      </div>
+
+      <!-- 2. Facturado -->
+      <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <p class="text-[11px] font-semibold uppercase tracking-wider text-emerald-400">Facturado</p>
+          <p id="kpiFacturado" class="text-2xl font-black text-emerald-400 mt-1">$0</p>
+        </div>
+        <span id="kpiFacturadoCant" class="text-[10px] text-slate-500 mt-2">0 tránsitos</span>
+      </div>
+
+      <!-- 3. No Facturado -->
+      <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <p class="text-[11px] font-semibold uppercase tracking-wider text-amber-400">No Facturado</p>
+          <p id="kpiNoFacturado" class="text-2xl font-black text-amber-400 mt-1">$0</p>
+        </div>
+        <span id="kpiNoFacturadoCant" class="text-[10px] text-slate-500 mt-2">0 tránsitos por cobrar</span>
+      </div>
+
+      <!-- 4. Total Tránsitos -->
+      <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Total Tránsitos</p>
+          <p id="kpiTotalTransitos" class="text-2xl font-black text-blue-400 mt-1">0</p>
+        </div>
+        <span class="text-[10px] text-slate-500 mt-2">pasadas registradas</span>
+      </div>
+
+      <!-- 5. Vehículos Activos -->
+      <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Vehículos Activos</p>
+          <p id="kpiVehiculos" class="text-2xl font-black text-purple-400 mt-1">0</p>
+        </div>
+        <span class="text-[10px] text-slate-500 mt-2">patentes filtradas</span>
+      </div>
+    </div>
+
+    <!-- SECCIÓN DE GRÁFICOS -->
+    <div class="space-y-6">
+      <!-- Fila Superior: Cobros por Patente y Gastos por Autopista -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Gráfico 1: Cobros por patente (Barras) -->
+        <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-5">
+          <h2 class="text-sm font-semibold text-slate-200 mb-4">Cobros por patente</h2>
+          <div class="relative h-64">
+            <canvas id="chartPatentes"></canvas>
+          </div>
+        </div>
+
+        <!-- Gráfico 2: Gastos por Autopista (Torta) -->
+        <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-5">
+          <h2 class="text-sm font-semibold text-slate-200 mb-4">Gastos por Autopista</h2>
+          <div class="relative h-64">
+            <canvas id="chartAutopistas"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fila Inferior: Tránsito diario (Onda) -->
+      <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-5">
+        <h2 class="text-sm font-semibold text-slate-200 mb-4">Tránsito diario</h2>
+        <div class="relative h-64">
+          <canvas id="chartGastoFecha"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabla Detallada -->
+    <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-5 space-y-4">
+      <div class="flex items-center justify-between">
+        <h2 class="text-base font-semibold text-white">Detalle de Viajes y Pórticos</h2>
+        <span id="infoConteo" class="text-xs text-slate-400">Mostrando 0 registros</span>
+      </div>
+
+      <div class="overflow-x-auto rounded-lg border border-slate-700/40">
+        <table class="w-full text-left text-xs text-slate-300">
+          <thead class="bg-slate-900/80 text-slate-400 uppercase font-semibold text-[10px] tracking-wider border-b border-slate-700/60">
+            <tr>
+              <th class="px-4 py-3">Autopista</th>
+              <th class="px-4 py-3">Patente</th>
+              <th class="px-4 py-3">Fecha y Hora Entrada</th>
+              <th class="px-4 py-3">Pórtico Entrada</th>
+              <th class="px-4 py-3">Pórtico Salida</th>
+              <th class="px-4 py-3 text-right">Tarifa</th>
+              <th class="px-4 py-3 text-center">Estado</th>
+              <th class="px-4 py-3">Boleta</th>
+            </tr>
+          </thead>
+          <tbody id="tablaCuerpo" class="divide-y divide-slate-800">
+            <tr>
+              <td colspan="8" class="px-4 py-8 text-center text-slate-500">Cargando registros...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    let datosConsolidados = [];
+    let datosFiltradosActuales = [];
+    
+    let todasLasPatentes = [];
+    let patentesSeleccionadas = new Set();
+
+    let todasLasAutopistas = [];
+    let autopistasSeleccionadas = new Set();
+
+    let chartFecha = null;
+    let chartPat = null;
+    let chartAuto = null;
+
+    const MESES = ["ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC"];
+
+    function formatearFecha24H(strFechaHora) {
+      if (!strFechaHora) return '---';
+      const partes = strFechaHora.split(' ');
+      if (partes.length < 2) return strFechaHora;
+
+      const [anio, mes, dia] = partes[0].split('-');
+      const [hora, min] = partes[1].split(':');
+      const mesTxt = MESES[parseInt(mes, 10) - 1] || mes;
+
+      return `${mesTxt} ${dia} ${hora}:${min}`;
+    }
+
+    function formatearDiaMes(strFecha) {
+      if (!strFecha) return '';
+      const [anio, mes, dia] = strFecha.split('-');
+      const mesTxt = MESES[parseInt(mes, 10) - 1] || mes;
+      return `${mesTxt} ${dia}`;
+    }
+
+    function formatoMoneda(valor) {
+      const num = Number(valor) || 0;
+      return '$' + num.toLocaleString('es-CL', {
+        minimumFractionDigits: Number.isInteger(num) ? 0 : 2,
+        maximumFractionDigits: 2
+      });
+    }
+
+    async function cargarDatos() {
+      try {
+        const resp = await fetch('data.json?v=' + Date.now());
+        if (!resp.ok) throw new Error('No se pudo cargar data.json');
+        datosConsolidados = await resp.json();
+        
+        inicializarFiltrosDinamicos(datosConsolidados);
+        aplicarFiltros();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('tablaCuerpo').innerHTML = `
+          <tr><td colspan="8" class="px-4 py-8 text-center text-rose-400">
+            Error cargando los datos de data.json. Asegúrate de servir el archivo vía servidor local o GitHub Pages.
+          </td></tr>
+        `;
+      }
+    }
+
+    function inicializarFiltrosDinamicos(datos) {
+      // 1. Patentes
+      todasLasPatentes = [...new Set(datos.map(d => d.patente))].filter(Boolean).sort();
+      patentesSeleccionadas = new Set(todasLasPatentes);
+      renderCheckboxesPatentes();
+
+      // 2. Autopistas
+      todasLasAutopistas = [...new Set(datos.map(d => d.autopista || 'AVO'))].filter(Boolean).sort();
+      autopistasSeleccionadas = new Set(todasLasAutopistas);
+      renderCheckboxesAutopistas();
+    }
+
+    function toggleDropdown(id) {
+      const drop = document.getElementById(id);
+      drop.classList.toggle('hidden');
+    }
+
+    // Cierra dropdowns al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      const dropPat = document.getElementById('dropdownPatentes');
+      const btnPat = document.getElementById('btnDropdownPatentes');
+      if (dropPat && !dropPat.contains(e.target) && !btnPat.contains(e.target)) {
+        dropPat.classList.add('hidden');
+      }
+
+      const dropAuto = document.getElementById('dropdownAutopistas');
+      const btnAuto = document.getElementById('btnDropdownAutopistas');
+      if (dropAuto && !dropAuto.contains(e.target) && !btnAuto.contains(e.target)) {
+        dropAuto.classList.add('hidden');
+      }
+    });
+
+    // --- Lógica Multipatente ---
+    function renderCheckboxesPatentes() {
+      const contenedor = document.getElementById('listaCheckboxesPatentes');
+      contenedor.innerHTML = todasLasPatentes.map(p => `
+        <label class="flex items-center gap-2 text-xs text-slate-300 hover:text-white cursor-pointer select-none py-0.5">
+          <input type="checkbox" value="${p}" ${patentesSeleccionadas.has(p) ? 'checked' : ''} onchange="cambioPatenteCheckbox(this)" class="rounded bg-slate-800 border-slate-700 text-blue-600 focus:ring-0">
+          <span>${p}</span>
+        </label>
+      `).join('');
+      actualizarBotonPatentes();
+    }
+
+    function cambioPatenteCheckbox(cb) {
+      if (cb.checked) {
+        patentesSeleccionadas.add(cb.value);
+      } else {
+        patentesSeleccionadas.delete(cb.value);
+      }
+      actualizarBotonPatentes();
+      aplicarFiltros();
+    }
+
+    function seleccionarTodasPatentes(estado) {
+      if (estado) {
+        patentesSeleccionadas = new Set(todasLasPatentes);
+      } else {
+        patentesSeleccionadas.clear();
+      }
+      renderCheckboxesPatentes();
+      aplicarFiltros();
+    }
+
+    function actualizarBotonPatentes() {
+      const txt = document.getElementById('textoSelectorPatentes');
+      if (patentesSeleccionadas.size === todasLasPatentes.length) {
+        txt.innerText = 'Todas las patentes';
+      } else if (patentesSeleccionadas.size === 0) {
+        txt.innerText = 'Ninguna patente';
+      } else {
+        txt.innerText = `Patentes (${patentesSeleccionadas.size} de ${todasLasPatentes.length})`;
+      }
+    }
+
+    // --- Lógica Multiautopista ---
+    function renderCheckboxesAutopistas() {
+      const contenedor = document.getElementById('listaCheckboxesAutopistas');
+      contenedor.innerHTML = todasLasAutopistas.map(a => `
+        <label class="flex items-center gap-2 text-xs text-slate-300 hover:text-white cursor-pointer select-none py-0.5">
+          <input type="checkbox" value="${a}" ${autopistasSeleccionadas.has(a) ? 'checked' : ''} onchange="cambioAutopistaCheckbox(this)" class="rounded bg-slate-800 border-slate-700 text-blue-600 focus:ring-0">
+          <span>${a}</span>
+        </label>
+      `).join('');
+      actualizarBotonAutopistas();
+    }
+
+    function cambioAutopistaCheckbox(cb) {
+      if (cb.checked) {
+        autopistasSeleccionadas.add(cb.value);
+      } else {
+        autopistasSeleccionadas.delete(cb.value);
+      }
+      actualizarBotonAutopistas();
+      aplicarFiltros();
+    }
+
+    function seleccionarTodasAutopistas(estado) {
+      if (estado) {
+        autopistasSeleccionadas = new Set(todasLasAutopistas);
+      } else {
+        autopistasSeleccionadas.clear();
+      }
+      renderCheckboxesAutopistas();
+      aplicarFiltros();
+    }
+
+    function actualizarBotonAutopistas() {
+      const txt = document.getElementById('textoSelectorAutopistas');
+      if (autopistasSeleccionadas.size === todasLasAutopistas.length) {
+        txt.innerText = 'Todas las autopistas';
+      } else if (autopistasSeleccionadas.size === 0) {
+        txt.innerText = 'Ninguna autopista';
+      } else {
+        txt.innerText = `Autopistas (${autopistasSeleccionadas.size} de ${todasLasAutopistas.length})`;
+      }
+    }
+
+    // --- Filtrado General ---
+    function aplicarFiltros() {
+      const fechaHoraDesde = document.getElementById('filtroFechaHoraDesde').value;
+      const fechaHoraHasta = document.getElementById('filtroFechaHoraHasta').value;
+      const estado = document.getElementById('filtroEstado').value;
+
+      // Conversión de formato YYYY-MM-DDTHH:MM a YYYY-MM-DD HH:MM:SS
+      const normalizadoDesde = fechaHoraDesde ? fechaHoraDesde.replace('T', ' ') + ':00' : null;
+      const normalizadoHasta = fechaHoraHasta ? fechaHoraHasta.replace('T', ' ') + ':59' : null;
+
+      datosFiltradosActuales = datosConsolidados.filter(d => {
+        const fechaEntrada = d.fecha_entrada || '';
+        const autopista = d.autopista || 'AVO';
+
+        if (normalizadoDesde && fechaEntrada < normalizadoDesde) return false;
+        if (normalizadoHasta && fechaEntrada > normalizadoHasta) return false;
+        if (!patentesSeleccionadas.has(d.patente)) return false;
+        if (!autopistasSeleccionadas.has(autopista)) return false;
+        if (estado && d.estado !== estado) return false;
+
+        return true;
+      });
+
+      actualizarDashboard(datosFiltradosActuales);
+    }
+
+    function limpiarFiltros() {
+      document.getElementById('filtroFechaHoraDesde').value = '';
+      document.getElementById('filtroFechaHoraHasta').value = '';
+      document.getElementById('filtroEstado').value = '';
+      
+      patentesSeleccionadas = new Set(todasLasPatentes);
+      renderCheckboxesPatentes();
+
+      autopistasSeleccionadas = new Set(todasLasAutopistas);
+      renderCheckboxesAutopistas();
+
+      aplicarFiltros();
+    }
+
+    function actualizarDashboard(datos) {
+      // 1. KPIs
+      const totalGasto = datos.reduce((acc, d) => acc + (parseFloat(d.tarifa) || 0), 0);
+      
+      const facturados = datos.filter(d => d.estado && d.estado.toLowerCase().includes('facturada') && !d.estado.toLowerCase().includes('no facturada'));
+      const totalFacturado = facturados.reduce((acc, d) => acc + (parseFloat(d.tarifa) || 0), 0);
+
+      const noFacturados = datos.filter(d => d.estado && d.estado.toLowerCase().includes('no facturada'));
+      const totalNoFacturado = noFacturados.reduce((acc, d) => acc + (parseFloat(d.tarifa) || 0), 0);
+
+      const vehiculosUnicos = new Set(datos.map(d => d.patente)).size;
+
+      document.getElementById('kpiTotalGasto').innerText = formatoMoneda(totalGasto);
+      
+      document.getElementById('kpiFacturado').innerText = formatoMoneda(totalFacturado);
+      document.getElementById('kpiFacturadoCant').innerText = `${facturados.length} tránsitos`;
+
+      document.getElementById('kpiNoFacturado').innerText = formatoMoneda(totalNoFacturado);
+      document.getElementById('kpiNoFacturadoCant').innerText = `${noFacturados.length} tránsitos por cobrar`;
+
+      document.getElementById('kpiTotalTransitos').innerText = datos.length.toLocaleString('es-CL');
+      document.getElementById('kpiVehiculos').innerText = vehiculosUnicos;
+
+      // 2. Tabla con formato militar SEP 27 20:25
+      const tbody = document.getElementById('tablaCuerpo');
+      if (datos.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="8" class="px-4 py-8 text-center text-slate-500">No se encontraron registros con los filtros aplicados.</td></tr>`;
+      } else {
+        tbody.innerHTML = datos.slice(0, 150).map(d => {
+          const esNoFact = d.estado && d.estado.toLowerCase().includes('no facturada');
+          const badgeClass = esNoFact 
+            ? 'bg-amber-500/10 text-amber-400 border border-amber-500/20' 
+            : 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20';
+
+          return `
+            <tr class="hover:bg-slate-800/40 transition">
+              <td class="px-4 py-2.5 font-medium text-slate-200">${d.autopista || 'AVO'}</td>
+              <td class="px-4 py-2.5 font-semibold text-blue-400">${d.patente}</td>
+              <td class="px-4 py-2.5 text-slate-300 font-mono text-[11px] whitespace-nowrap">${formatearFecha24H(d.fecha_entrada)}</td>
+              <td class="px-4 py-2.5 text-slate-300">${d.portico_entrada || '---'}</td>
+              <td class="px-4 py-2.5 text-slate-300">${d.portico_salida || '---'}</td>
+              <td class="px-4 py-2.5 text-right font-semibold text-slate-100">${formatoMoneda(d.tarifa)}</td>
+              <td class="px-4 py-2.5 text-center">
+                <span class="inline-block px-2 py-0.5 rounded text-[10px] font-medium ${badgeClass}">
+                  ${d.estado || '---'}
+                </span>
+              </td>
+              <td class="px-4 py-2.5 text-slate-400">${d.boleta && d.boleta !== '---' ? d.boleta : '<span class="text-slate-600">-</span>'}</td>
+            </tr>
+          `;
+        }).join('');
+      }
+
+      document.getElementById('infoConteo').innerText = `Mostrando ${Math.min(datos.length, 150)} de ${datos.length} registros`;
+
+      // 3. Gráficos
+      actualizarGraficos(datos);
+    }
+
+    function actualizarGraficos(datos) {
+      // 1. Cobros por patente (Barras)
+      const gastosPorPatente = {};
+      datos.forEach(d => {
+        gastosPorPatente[d.patente] = (gastosPorPatente[d.patente] || 0) + (parseFloat(d.tarifa) || 0);
+      });
+      const patentes = Object.keys(gastosPorPatente);
+      const valoresPat = patentes.map(p => gastosPorPatente[p]);
+
+      const paletaColores = ['#3b82f6', '#8b5cf6', '#ec4899', '#f59e0b', '#10b981', '#06b6d4', '#f97316', '#6366f1'];
+
+      if (chartPat) chartPat.destroy();
+      const ctxPat = document.getElementById('chartPatentes').getContext('2d');
+      chartPat = new Chart(ctxPat, {
+        type: 'bar',
+        data: {
+          labels: patentes,
+          datasets: [{
+            label: 'Total por Patente',
+            data: valoresPat,
+            backgroundColor: paletaColores.slice(0, patentes.length),
+            borderRadius: 6,
+            maxBarThickness: 40
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (context) => ' Gasto: ' + formatoMoneda(context.raw)
+              }
+            }
+          },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: '#cbd5e1', font: { size: 11, weight: 'bold' } } },
+            y: {
+              grid: { color: 'rgba(255,255,255,0.06)' },
+              ticks: { color: '#94a3b8', font: { size: 10 }, callback: (v) => formatoMoneda(v) }
+            }
+          }
+        }
+      });
+
+      // 2. Gastos por Autopista (Torta)
+      const gastosPorAutopista = {};
+      datos.forEach(d => {
+        const auto = d.autopista || 'AVO';
+        gastosPorAutopista[auto] = (gastosPorAutopista[auto] || 0) + (parseFloat(d.tarifa) || 0);
+      });
+      const autopistas = Object.keys(gastosPorAutopista);
+      const valoresAuto = autopistas.map(a => gastosPorAutopista[a]);
+
+      const paletaAutopistas = ['#06b6d4', '#3b82f6', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6', '#f97316'];
+
+      if (chartAuto) chartAuto.destroy();
+      const ctxAuto = document.getElementById('chartAutopistas').getContext('2d');
+      chartAuto = new Chart(ctxAuto, {
+        type: 'pie',
+        data: {
+          labels: autopistas,
+          datasets: [{
+            data: valoresAuto,
+            backgroundColor: paletaAutopistas.slice(0, autopistas.length),
+            borderWidth: 2,
+            borderColor: '#1e293b'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom', labels: { color: '#cbd5e1', font: { size: 11 }, boxWidth: 14 } },
+            tooltip: {
+              callbacks: {
+                label: (context) => ' ' + context.label + ': ' + formatoMoneda(context.raw)
+              }
+            }
+          }
+        }
+      });
+
+      // 3. Tránsito diario (Onda)
+      const gastosPorFecha = {};
+      datos.forEach(d => {
+        const dia = (d.fecha_entrada || '').split(' ')[0];
+        if (dia) {
+          gastosPorFecha[dia] = (gastosPorFecha[dia] || 0) + (parseFloat(d.tarifa) || 0);
+        }
+      });
+      const fechasOrdenadas = Object.keys(gastosPorFecha).sort();
+      const valoresFecha = fechasOrdenadas.map(f => gastosPorFecha[f]);
+      const labelsSimplificados = fechasOrdenadas.map(f => formatearDiaMes(f));
+
+      if (chartFecha) chartFecha.destroy();
+      const ctxFecha = document.getElementById('chartGastoFecha').getContext('2d');
+
+      const gradient = ctxFecha.createLinearGradient(0, 0, 0, 240);
+      gradient.addColorStop(0, 'rgba(59, 130, 246, 0.45)');
+      gradient.addColorStop(1, 'rgba(59, 130, 246, 0.01)');
+
+      chartFecha = new Chart(ctxFecha, {
+        type: 'line',
+        data: {
+          labels: labelsSimplificados,
+          datasets: [{
+            label: 'Total Diario',
+            data: valoresFecha,
+            borderColor: '#38bdf8',
+            borderWidth: 2.5,
+            backgroundColor: gradient,
+            fill: true,
+            tension: 0.4,
+            pointBackgroundColor: '#0284c7',
+            pointBorderColor: '#ffffff',
+            pointBorderWidth: 1.5,
+            pointRadius: 4,
+            pointHoverRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                title: (context) => {
+                  const idx = context[0].dataIndex;
+                  return fechasOrdenadas[idx];
+                },
+                label: (context) => ' Gasto: ' + formatoMoneda(context.raw)
+              }
+            }
+          },
+          scales: {
+            x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#94a3b8', font: { size: 10 } } },
+            y: {
+              grid: { color: 'rgba(255,255,255,0.06)' },
+              ticks: { color: '#94a3b8', font: { size: 10 }, callback: (v) => formatoMoneda(v) }
+            }
+          }
+        }
+      });
+    }
+
+    // Exportaciones
+    function prepararDatosParaExportar() {
+      return datosFiltradosActuales.map(d => ({
+        "Autopista": d.autopista || "AVO",
+        "Patente": d.patente || "",
+        "Fecha y Hora": d.fecha_entrada || "",
+        "Pórtico Entrada": d.portico_entrada || "",
+        "Pórtico Salida": d.portico_salida || "",
+        "Tarifa ($)": parseFloat(d.tarifa) || 0,
+        "Tipo Tarifa": d.tipo_tarifa || "",
+        "Estado": d.estado || "",
+        "Boleta": d.boleta && d.boleta !== "---" ? d.boleta : ""
+      }));
+    }
+
+    function exportarExcel() {
+      if (datosFiltradosActuales.length === 0) {
+        alert("No hay registros para exportar.");
+        return;
+      }
+      const datos = prepararDatosParaExportar();
+      const hoja = XLSX.utils.json_to_sheet(datos);
+      const libro = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(libro, hoja, "Tránsitos Filtrados");
+      const fechaStr = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+      XLSX.writeFile(libro, `TagFlow_Automaas_${fechaStr}.xlsx`);
+    }
+
+    function exportarPDF() {
+      if (datosFiltradosActuales.length === 0) {
+        alert("No hay registros para exportar.");
+        return;
+      }
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF('landscape');
+      const totalGasto = datosFiltradosActuales.reduce((acc, d) => acc + (parseFloat(d.tarifa) || 0), 0);
+      const fechaHoy = new Date().toLocaleString('es-CL');
+
+      doc.setFontSize(16);
+      doc.setTextColor(30, 41, 59);
+      doc.text("TagFlow | AUTOMAAS", 14, 15);
+
+      doc.setFontSize(9);
+      doc.setTextColor(100, 116, 139);
+      doc.text(`Generado: ${fechaHoy}  |  Registros: ${datosFiltradosActuales.length}  |  Total: ${formatoMoneda(totalGasto)}`, 14, 22);
+
+      const columnas = ["Autopista", "Patente", "Fecha Entrada", "Pórtico Entrada", "Pórtico Salida", "Tarifa", "Estado", "Boleta"];
+      const filas = datosFiltradosActuales.map(d => [
+        d.autopista || "AVO",
+        d.patente,
+        formatearFecha24H(d.fecha_entrada),
+        d.portico_entrada,
+        d.portico_salida,
+        formatoMoneda(d.tarifa),
+        d.estado,
+        d.boleta && d.boleta !== "---" ? d.boleta : "-"
+      ]);
+
+      doc.autoTable({
+        head: [columnas],
+        body: filas,
+        startY: 27,
+        theme: 'striped',
+        styles: { fontSize: 8, cellPadding: 2 },
+        headStyles: { fillColor: [30, 41, 59], textColor: [255, 255, 255], fontStyle: 'bold' },
+        alternateRowStyles: { fillColor: [248, 250, 252] },
+        columnStyles: {
+          5: { halign: 'right', fontStyle: 'bold' },
+          6: { halign: 'center' }
+        }
+      });
+
+      const fechaStr = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+      doc.save(`TagFlow_Automaas_${fechaStr}.pdf`);
+    }
+
+    function exportarGoogleSheets() {
+      if (datosFiltradosActuales.length === 0) {
+        alert("No hay registros para exportar.");
+        return;
+      }
+      const datos = prepararDatosParaExportar();
+      const columnas = Object.keys(datos[0]);
+      let csvContent = "\uFEFF";
+      csvContent += columnas.join(",") + "\n";
+
+      datos.forEach(row => {
+        const fila = columnas.map(col => {
+          let val = row[col] === null || row[col] === undefined ? "" : String(row[col]);
+          if (val.includes(",") || val.includes('"') || val.includes("\n")) {
+            val = `"${val.replace(/"/g, '""')}"`;
+          }
+          return val;
+        });
+        csvContent += fila.join(",") + "\n";
+      });
+
+      const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      const fechaStr = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+      a.href = url;
+      a.download = `TagFlow_Automaas_${fechaStr}_GoogleSheets.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      window.open("https://sheets.new", "_blank");
+    }
+
+    cargarDatos();
+  </script>
+</body>
+</html>

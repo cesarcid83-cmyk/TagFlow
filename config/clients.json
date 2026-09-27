@@ -1,0 +1,19 @@
+[
+  {
+    "id": "automaas",
+    "name": "AUTOMAAS",
+    "credentials": {
+      "rut_empresa": "78343019-3",
+      "password_portal": "@Alfredo01"
+    },
+    "active": true,
+    "services": [
+      "autopase",
+      "costanera",
+      "rutapass",
+      "vespucio_norte",
+      "vespucio_sur",
+      "avo"
+    ]
+  }
+]
