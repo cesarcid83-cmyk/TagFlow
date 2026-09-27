@@ -99,6 +99,51 @@ def procesar_csv_costanera(ruta_archivo):
             })
     return registros
 
+def procesar_avo_excel(ruta_archivo):
+    registros = []
+    try:
+        df = pd.read_excel(ruta_archivo)
+        df.columns = [str(c).strip() for c in df.columns]
+
+        for _, fila in df.iterrows():
+            pat = ""
+            for c in ["Patente", "PATENTE", "Placa", "PLACA"]:
+                if c in fila and pd.notna(fila[c]):
+                    pat = str(fila[c]).strip().replace('"', '')
+                    break
+            
+            if not pat or pat.lower() in ["nan", "none"]:
+                continue
+
+            fec = str(fila.get("Fecha", fila.get("Fecha Tránsito", ""))).strip()
+            hor = str(fila.get("Hora", fila.get("Hora Tránsito", "00:00:00"))).strip()
+            fecha_norm = normalizar_fecha_iso(fec, hor)
+
+            portico = str(fila.get("Pórtico", fila.get("Portico", fila.get("Punto Cobro", "---")))).strip()
+            if portico.lower() == "nan": 
+                portico = "---"
+
+            tarifa = limpiar_monto(fila.get("Tarifa", fila.get("Monto", fila.get("Valor", 0))))
+            estado_raw = str(fila.get("Estado", fila.get("Estado Facturación", "No Facturada"))).strip()
+            estado = "Facturada" if "facturad" in estado_raw.lower() and "no" not in estado_raw.lower() else "No Facturada"
+            boleta = str(fila.get("Factura", fila.get("N° Factura", fila.get("Boleta", "---")))).strip()
+
+            registros.append({
+                "autopista": "AVO",
+                "patente": pat,
+                "fecha_entrada": fecha_norm,
+                "portico_entrada": portico,
+                "portico_salida": "---",
+                "tarifa": tarifa,
+                "estado": estado,
+                "boleta": boleta if estado == "Facturada" else "---"
+            })
+        print(f"[OK] AVO ({os.path.basename(ruta_archivo)}): {len(registros)} registros procesados.")
+    except Exception as e:
+        print(f"[AVISO] Error al leer Excel AVO ({os.path.basename(ruta_archivo)}): {e}")
+
+    return registros
+
 def procesar_rutapass_no_facturado(ruta_archivo):
     registros = []
     try:
@@ -191,6 +236,7 @@ def procesar_vespucio_norte_nofacturado(ruta_archivo):
                 "estado": "No Facturada",
                 "boleta": "---"
             })
+        print(f"[OK] Vespucio Norte No Facturado ({os.path.basename(ruta_archivo)}): {len(registros)} registros procesados.")
     except Exception as e:
         print(f"[AVISO] Error en Vespucio Norte No Facturado ({ruta_archivo}): {e}")
     return registros
@@ -223,6 +269,7 @@ def procesar_vespucio_norte_facturado(ruta_archivo, boleta_defecto="10156275"):
                 "estado": "Facturada",
                 "boleta": boleta_defecto
             })
+        print(f"[OK] Vespucio Norte Facturado ({os.path.basename(ruta_archivo)}): {len(registros)} registros procesados.")
     except Exception as e:
         print(f"[AVISO] Error en Vespucio Norte Facturado ({ruta_archivo}): {e}")
     return registros
@@ -232,7 +279,6 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
     if not os.path.isfile(ruta_archivo):
         return registros
 
-    # Probar codificaciones chilenas comunes
     codificaciones = ["latin-1", "cp1252", "utf-8-sig", "utf-8"]
     lineas = []
     encoding_usado = "latin-1"
@@ -251,7 +297,6 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
         return registros
 
     try:
-        # Detectar el renglón donde empiezan las columnas
         indice_cabecera = 0
         delimitador = ";"
         for i, l in enumerate(lineas[:30]):
@@ -274,8 +319,6 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
             encoding=encoding_usado,
             on_bad_lines="skip"
         )
-        
-        # Normalizar encabezados eliminando comillas y espacios
         df.rename(columns={c: str(c).strip().replace('"', '') for c in df.columns}, inplace=True)
 
         for _, fila in df.iterrows():
@@ -310,7 +353,6 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
             if portico.lower() == "nan": 
                 portico = "---"
 
-            # UNIFICAR SIEMPRE BAJO 'Autopase' PARA QUE EL FILTRO DE LA WEB NO LO EXCLUYA
             autopista = "Autopase"
 
             monto_val = 0.0
@@ -330,8 +372,6 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
                 "estado": "Facturada" if es_facturado else "No Facturada",
                 "boleta": boleta_defecto if es_facturado else "---"
             })
-            
-        print(f"[OK] {os.path.basename(ruta_archivo)}: {len(registros)} registros procesados como {('Facturada (Boleta ' + boleta_defecto + ')') if es_facturado else 'No Facturada'}.")
     except Exception as e:
         print(f"[AVISO] Error al leer Autopase ({os.path.basename(ruta_archivo)}): {e}")
 
@@ -346,32 +386,26 @@ def consolidar_cliente(id_cliente="automaas"):
 
     todos_los_viajes = []
 
-    # 1. Conservar registros de autopistas manuales (AVO/Otros)
-    autopistas_gestionadas = ["Costanera Norte", "RutaPass", "Vespucio Norte", "AMB", "Autopase", "Autopista Central", "Vespucio Sur"]
-    if os.path.exists(ruta_destino_json):
-        try:
-            with open(ruta_destino_json, "r", encoding="utf-8") as f:
-                anteriores = json.load(f)
-                for v in anteriores:
-                    if v.get("autopista") not in autopistas_gestionadas:
-                        todos_los_viajes.append(v)
-            print(f"[INFO] Registros base conservados (AVO/Otros): {len(todos_los_viajes)}")
-        except Exception as e:
-            print(f"[AVISO] Error al leer data.json previo: {e}")
-
-    # 2. Costanera Norte y AMB
+    # 1. Costanera Norte y AMB
     for arch in sorted(glob.glob(os.path.join(carpeta_crudos, "Costanera_*.csv"))):
         print(f"[PROCESANDO] Costanera: {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_csv_costanera(arch))
 
+    # 2. AVO (Autopista Vespucio Oriente)
+    archivos_avo = glob.glob(os.path.join(carpeta_crudos, "AVO_*.xlsx")) or glob.glob(os.path.join(carpeta_crudos, "avo_*.xlsx"))
+    for arch in sorted(archivos_avo):
+        print(f"[PROCESANDO] AVO: {os.path.basename(arch)}")
+        todos_los_viajes.extend(procesar_avo_excel(arch))
+
     # 3. RutaPass No Facturado
     for arch in sorted(glob.glob(os.path.join(carpeta_crudos, "RutaPass_*.xls*"))):
-        print(f"[PROCESANDO] RutaPass No Facturado: {os.path.basename(arch)}")
-        todos_los_viajes.extend(procesar_rutapass_no_facturado(arch))
+        if "Factura" not in os.path.basename(arch):
+            print(f"[PROCESANDO] RutaPass No Facturado: {os.path.basename(arch)}")
+            todos_los_viajes.extend(procesar_rutapass_no_facturado(arch))
 
     # 4. RutaPass Facturado
-    archivos_factura_rp = glob.glob(os.path.join(directorio_raiz, "RutaPass_Factura_*.xlsx")) or \
-                          glob.glob(os.path.join(carpeta_crudos, "RutaPass_Factura_*.xlsx"))
+    archivos_factura_rp = glob.glob(os.path.join(carpeta_crudos, "RutaPass_Factura_*.xlsx")) or \
+                          glob.glob(os.path.join(directorio_raiz, "RutaPass_Factura_*.xlsx"))
     for arch in sorted(archivos_factura_rp):
         print(f"[PROCESANDO] Factura RutaPass: {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_rutapass_facturado(arch))
@@ -381,13 +415,12 @@ def consolidar_cliente(id_cliente="automaas"):
         print(f"[PROCESANDO] Vespucio Norte Facturado: {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_vespucio_norte_facturado(arch))
 
-    # 6. Vespucio Norte No Facturado
-    for arch in sorted(glob.glob(os.path.join(carpeta_crudos, "VespucioNorte_*.xlsx"))):
-        if "Facturado" not in os.path.basename(arch):
-            print(f"[PROCESANDO] Vespucio Norte No Facturado: {os.path.basename(arch)}")
-            todos_los_viajes.extend(procesar_vespucio_norte_nofacturado(arch))
+    # 6. Vespucio Norte No Facturado (búsqueda directa por prefijo VespucioNorte_NoFacturado_)
+    for arch in sorted(glob.glob(os.path.join(carpeta_crudos, "VespucioNorte_NoFacturado_*.xlsx"))):
+        print(f"[PROCESANDO] Vespucio Norte No Facturado: {os.path.basename(arch)}")
+        todos_los_viajes.extend(procesar_vespucio_norte_nofacturado(arch))
 
-    # 7. Autopase Facturado (Archivos con prefijo Autopase_Facturado_)
+    # 7. Autopase Facturado
     archivos_facturados_ap = [
         f for f in glob.glob(os.path.join(carpeta_crudos, "Autopase_Facturado_*"))
         if os.path.isfile(f)
@@ -399,7 +432,7 @@ def consolidar_cliente(id_cliente="automaas"):
         print(f"[PROCESANDO] Autopase Facturado: {nombre} (Boleta: {boleta_num})")
         todos_los_viajes.extend(procesar_autopase_csv(arch, es_facturado=True, boleta_defecto=boleta_num))
 
-    # 8. Autopase No Facturado (Archivos con prefijo Autopase_ sin Facturado)
+    # 8. Autopase No Facturado
     archivos_nofacturados_ap = [
         f for f in glob.glob(os.path.join(carpeta_crudos, "Autopase_*"))
         if os.path.isfile(f) and "Facturado" not in os.path.basename(f)
