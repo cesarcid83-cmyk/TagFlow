@@ -43,7 +43,7 @@
           PDF
         </button>
 
-        <button onclick="exportarGoogleSheets()" class="inline-flex items-center gap-1.5 bg-green-700 hover:bg-green-600 text-white text-xs font-semibold px-3 py-2 rounded-lg shadow-sm transition" title="Descarga CSV compatible y abre Google Sheets">
+        <button onclick="exportarGoogleSheets()" class="inline-flex items-center gap-1.5 bg-green-700 hover:bg-green-600 text-white text-xs font-semibold px-3 py-2 rounded-lg shadow-sm transition" title="Copia los datos al portapapeles y abre Google Sheets para pegar directo">
           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
             <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/>
           </svg>
@@ -60,6 +60,17 @@
   </header>
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+
+    <!-- Notificación Flotante para Google Sheets -->
+    <div id="toastNotificacion" class="hidden fixed bottom-6 right-6 z-50 bg-emerald-600 text-white px-4 py-3 rounded-xl shadow-xl flex items-center gap-3 transition">
+      <svg class="w-5 h-5 text-emerald-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+      </svg>
+      <div>
+        <p class="text-xs font-bold" id="toastTitulo">¡Datos copiados al portapapeles!</p>
+        <p class="text-[11px] text-emerald-100" id="toastDesc">Solo presiona Ctrl + V en la celda A1 de Google Sheets.</p>
+      </div>
+    </div>
 
     <!-- Panel de Filtros -->
     <section class="bg-slate-800/70 border border-slate-700/60 rounded-xl p-5 shadow-sm space-y-4">
@@ -93,7 +104,6 @@
             </svg>
           </button>
 
-          <!-- Menú desplegable multipatente -->
           <div id="dropdownPatentes" class="hidden absolute top-full mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg shadow-xl p-2.5 z-40 space-y-2">
             <div class="flex items-center justify-between border-b border-slate-800 pb-1.5 text-[10px]">
               <button type="button" onclick="seleccionarTodasPatentes(true)" class="text-blue-400 hover:text-blue-300 font-semibold">Todas</button>
@@ -113,7 +123,6 @@
             </svg>
           </button>
 
-          <!-- Menú desplegable multiautopista -->
           <div id="dropdownAutopistas" class="hidden absolute top-full mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg shadow-xl p-2.5 z-40 space-y-2">
             <div class="flex items-center justify-between border-b border-slate-800 pb-1.5 text-[10px]">
               <button type="button" onclick="seleccionarTodasAutopistas(true)" class="text-blue-400 hover:text-blue-300 font-semibold">Todas</button>
@@ -137,7 +146,6 @@
 
     <!-- Tarjetas KPI -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-      <!-- 1. Total -->
       <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
         <div>
           <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Total</p>
@@ -146,7 +154,6 @@
         <span class="text-[10px] text-slate-500 mt-2">en base a datos filtrados</span>
       </div>
 
-      <!-- 2. Facturado -->
       <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
         <div>
           <p class="text-[11px] font-semibold uppercase tracking-wider text-emerald-400">Facturado</p>
@@ -155,7 +162,6 @@
         <span id="kpiFacturadoCant" class="text-[10px] text-slate-500 mt-2">0 tránsitos</span>
       </div>
 
-      <!-- 3. No Facturado -->
       <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
         <div>
           <p class="text-[11px] font-semibold uppercase tracking-wider text-amber-400">No Facturado</p>
@@ -164,7 +170,6 @@
         <span id="kpiNoFacturadoCant" class="text-[10px] text-slate-500 mt-2">0 tránsitos por cobrar</span>
       </div>
 
-      <!-- 4. Total Tránsitos -->
       <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
         <div>
           <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Total Tránsitos</p>
@@ -173,7 +178,6 @@
         <span class="text-[10px] text-slate-500 mt-2">pasadas registradas</span>
       </div>
 
-      <!-- 5. Vehículos Activos -->
       <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
         <div>
           <p class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Vehículos Activos</p>
@@ -185,9 +189,7 @@
 
     <!-- SECCIÓN DE GRÁFICOS -->
     <div class="space-y-6">
-      <!-- Fila Superior: Cobros por Patente y Gastos por Autopista -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <!-- Gráfico 1: Cobros por patente (Barras) -->
         <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-5">
           <h2 class="text-sm font-semibold text-slate-200 mb-4">Cobros por patente</h2>
           <div class="relative h-64">
@@ -195,7 +197,6 @@
           </div>
         </div>
 
-        <!-- Gráfico 2: Gastos por Autopista (Torta) -->
         <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-5">
           <h2 class="text-sm font-semibold text-slate-200 mb-4">Gastos por Autopista</h2>
           <div class="relative h-64">
@@ -204,7 +205,6 @@
         </div>
       </div>
 
-      <!-- Fila Inferior: Tránsito diario (Onda) -->
       <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-5">
         <h2 class="text-sm font-semibold text-slate-200 mb-4">Tránsito diario</h2>
         <div class="relative h-64">
@@ -307,12 +307,10 @@
     }
 
     function inicializarFiltrosDinamicos(datos) {
-      // 1. Patentes
       todasLasPatentes = [...new Set(datos.map(d => d.patente))].filter(Boolean).sort();
       patentesSeleccionadas = new Set(todasLasPatentes);
       renderCheckboxesPatentes();
 
-      // 2. Autopistas
       todasLasAutopistas = [...new Set(datos.map(d => d.autopista || 'AVO'))].filter(Boolean).sort();
       autopistasSeleccionadas = new Set(todasLasAutopistas);
       renderCheckboxesAutopistas();
@@ -323,7 +321,6 @@
       drop.classList.toggle('hidden');
     }
 
-    // Cierra dropdowns al hacer clic fuera
     document.addEventListener('click', (e) => {
       const dropPat = document.getElementById('dropdownPatentes');
       const btnPat = document.getElementById('btnDropdownPatentes');
@@ -338,7 +335,6 @@
       }
     });
 
-    // --- Lógica Multipatente ---
     function renderCheckboxesPatentes() {
       const contenedor = document.getElementById('listaCheckboxesPatentes');
       contenedor.innerHTML = todasLasPatentes.map(p => `
@@ -381,7 +377,6 @@
       }
     }
 
-    // --- Lógica Multiautopista ---
     function renderCheckboxesAutopistas() {
       const contenedor = document.getElementById('listaCheckboxesAutopistas');
       contenedor.innerHTML = todasLasAutopistas.map(a => `
@@ -424,13 +419,11 @@
       }
     }
 
-    // --- Filtrado General ---
     function aplicarFiltros() {
       const fechaHoraDesde = document.getElementById('filtroFechaHoraDesde').value;
       const fechaHoraHasta = document.getElementById('filtroFechaHoraHasta').value;
       const estado = document.getElementById('filtroEstado').value;
 
-      // Conversión de formato YYYY-MM-DDTHH:MM a YYYY-MM-DD HH:MM:SS
       const normalizadoDesde = fechaHoraDesde ? fechaHoraDesde.replace('T', ' ') + ':00' : null;
       const normalizadoHasta = fechaHoraHasta ? fechaHoraHasta.replace('T', ' ') + ':59' : null;
 
@@ -465,7 +458,6 @@
     }
 
     function actualizarDashboard(datos) {
-      // 1. KPIs
       const totalGasto = datos.reduce((acc, d) => acc + (parseFloat(d.tarifa) || 0), 0);
       
       const facturados = datos.filter(d => d.estado && d.estado.toLowerCase().includes('facturada') && !d.estado.toLowerCase().includes('no facturada'));
@@ -477,7 +469,6 @@
       const vehiculosUnicos = new Set(datos.map(d => d.patente)).size;
 
       document.getElementById('kpiTotalGasto').innerText = formatoMoneda(totalGasto);
-      
       document.getElementById('kpiFacturado').innerText = formatoMoneda(totalFacturado);
       document.getElementById('kpiFacturadoCant').innerText = `${facturados.length} tránsitos`;
 
@@ -487,7 +478,6 @@
       document.getElementById('kpiTotalTransitos').innerText = datos.length.toLocaleString('es-CL');
       document.getElementById('kpiVehiculos').innerText = vehiculosUnicos;
 
-      // 2. Tabla con formato militar SEP 27 20:25
       const tbody = document.getElementById('tablaCuerpo');
       if (datos.length === 0) {
         tbody.innerHTML = `<tr><td colspan="8" class="px-4 py-8 text-center text-slate-500">No se encontraron registros con los filtros aplicados.</td></tr>`;
@@ -519,12 +509,10 @@
 
       document.getElementById('infoConteo').innerText = `Mostrando ${Math.min(datos.length, 150)} de ${datos.length} registros`;
 
-      // 3. Gráficos
       actualizarGraficos(datos);
     }
 
     function actualizarGraficos(datos) {
-      // 1. Cobros por patente (Barras)
       const gastosPorPatente = {};
       datos.forEach(d => {
         gastosPorPatente[d.patente] = (gastosPorPatente[d.patente] || 0) + (parseFloat(d.tarifa) || 0);
@@ -569,7 +557,6 @@
         }
       });
 
-      // 2. Gastos por Autopista (Torta)
       const gastosPorAutopista = {};
       datos.forEach(d => {
         const auto = d.autopista || 'AVO';
@@ -607,7 +594,6 @@
         }
       });
 
-      // 3. Tránsito diario (Onda)
       const gastosPorFecha = {};
       datos.forEach(d => {
         const dia = (d.fecha_entrada || '').split(' ')[0];
@@ -671,16 +657,15 @@
       });
     }
 
-    // Exportaciones
+    // Funciones de Exportación
     function prepararDatosParaExportar() {
       return datosFiltradosActuales.map(d => ({
         "Autopista": d.autopista || "AVO",
         "Patente": d.patente || "",
-        "Fecha y Hora": d.fecha_entrada || "",
+        "Fecha Entrada": formatearFecha24H(d.fecha_entrada),
         "Pórtico Entrada": d.portico_entrada || "",
         "Pórtico Salida": d.portico_salida || "",
-        "Tarifa ($)": parseFloat(d.tarifa) || 0,
-        "Tipo Tarifa": d.tipo_tarifa || "",
+        "Tarifa": parseFloat(d.tarifa) || 0,
         "Estado": d.estado || "",
         "Boleta": d.boleta && d.boleta !== "---" ? d.boleta : ""
       }));
@@ -694,7 +679,7 @@
       const datos = prepararDatosParaExportar();
       const hoja = XLSX.utils.json_to_sheet(datos);
       const libro = XLSX.utils.book_new();
-      XLSX.utils.book_append_sheet(libro, hoja, "Tránsitos Filtrados");
+      XLSX.utils.book_append_sheet(libro, hoja, "Tránsitos");
       const fechaStr = new Date().toISOString().slice(0, 10).replace(/-/g, "");
       XLSX.writeFile(libro, `TagFlow_Automaas_${fechaStr}.xlsx`);
     }
@@ -747,39 +732,43 @@
       doc.save(`TagFlow_Automaas_${fechaStr}.pdf`);
     }
 
-    function exportarGoogleSheets() {
+    async function exportarGoogleSheets() {
       if (datosFiltradosActuales.length === 0) {
         alert("No hay registros para exportar.");
         return;
       }
+
       const datos = prepararDatosParaExportar();
       const columnas = Object.keys(datos[0]);
-      let csvContent = "\uFEFF";
-      csvContent += columnas.join(",") + "\n";
-
+      
+      // Formato TSV (Tab-Separated Values) que Google Sheets interpreta automáticamente en celdas perfectas al hacer Ctrl + V
+      let tsv = columnas.join("\t") + "\n";
       datos.forEach(row => {
         const fila = columnas.map(col => {
           let val = row[col] === null || row[col] === undefined ? "" : String(row[col]);
-          if (val.includes(",") || val.includes('"') || val.includes("\n")) {
-            val = `"${val.replace(/"/g, '""')}"`;
-          }
-          return val;
+          return val.replace(/\t/g, " ").replace(/\n/g, " ");
         });
-        csvContent += fila.join(",") + "\n";
+        tsv += fila.join("\t") + "\n";
       });
 
-      const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      const fechaStr = new Date().toISOString().slice(0, 10).replace(/-/g, "");
-      a.href = url;
-      a.download = `TagFlow_Automaas_${fechaStr}_GoogleSheets.csv`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
+      try {
+        await navigator.clipboard.writeText(tsv);
+        mostrarToast("¡Datos copiados al portapapeles!", "En la hoja que se abrió, presiona Ctrl + V en la celda A1.");
+      } catch (err) {
+        console.error("No se pudo copiar directo:", err);
+      }
 
       window.open("https://sheets.new", "_blank");
+    }
+
+    function mostrarToast(titulo, desc) {
+      const toast = document.getElementById('toastNotificacion');
+      document.getElementById('toastTitulo').innerText = titulo;
+      document.getElementById('toastDesc').innerText = desc;
+      toast.classList.remove('hidden');
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 7000);
     }
 
     cargarDatos();
