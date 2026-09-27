@@ -2,6 +2,7 @@ import os
 import glob
 import json
 import csv
+import re
 from datetime import datetime
 import pandas as pd
 
@@ -232,32 +233,90 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
         return registros
 
     try:
-        delimitador = ";"
-        with open(ruta_archivo, "r", encoding="utf-8-sig", errors="ignore") as test_f:
-            linea = test_f.readline()
-            if linea.count(";") < linea.count(","):
-                delimitador = ","
+        with open(ruta_archivo, "r", encoding="utf-8-sig", errors="ignore") as f:
+            lineas = [l for l in f.readlines() if l.strip()]
 
-        df = pd.read_csv(ruta_archivo, delimiter=delimitador, dtype=str, encoding="utf-8-sig", on_bad_lines="skip")
-        df.columns = [str(c).strip() for c in df.columns]
+        if not lineas:
+            return registros
+
+        # Detectar la fila de encabezado
+        indice_cabecera = 0
+        delimitador = ";"
+        for i, l in enumerate(lineas[:25]):
+            if "patente" in l.lower() or "portico" in l.lower() or "pórtico" in l.lower():
+                indice_cabecera = i
+                if l.count(";") >= l.count(",") and l.count(";") >= l.count("\t"):
+                    delimitador = ";"
+                elif l.count(",") >= l.count("\t"):
+                    delimitador = ","
+                else:
+                    delimitador = "\t"
+                break
+
+        df = pd.read_csv(
+            ruta_archivo,
+            skiprows=indice_cabecera,
+            delimiter=delimitador,
+            dtype=str,
+            encoding="utf-8-sig",
+            on_bad_lines="skip"
+        )
+        # Limpieza de nombres de columna
+        mapa_cols = {c: str(c).strip().replace('"', '') for c in df.columns}
+        df.rename(columns=mapa_cols, inplace=True)
 
         for _, fila in df.iterrows():
-            pat = str(fila.get("Patente", fila.get("PATENTE", ""))).strip()
-            if not pat or pat.lower() == "nan":
+            pat = ""
+            for c in ["Patente", "PATENTE", "Placa", "PLACA"]:
+                if c in fila and pd.notna(fila[c]):
+                    pat = str(fila[c]).strip().replace('"', '')
+                    break
+            
+            if not pat or pat.lower() in ["nan", "none", "patente"]:
                 continue
 
-            fec = str(fila.get("Fecha", fila.get("FECHA", ""))).strip()
-            hor = str(fila.get("Hora", fila.get("HORA", "00:00:00"))).strip()
+            fec = ""
+            for c in ["Fecha", "FECHA", "Fecha Paso", "Fecha Tránsito"]:
+                if c in fila and pd.notna(fila[c]):
+                    fec = str(fila[c]).strip().replace('"', '')
+                    break
+
+            hor = "00:00:00"
+            for c in ["Hora", "HORA", "Hora Paso"]:
+                if c in fila and pd.notna(fila[c]):
+                    hor = str(fila[c]).strip().replace('"', '')
+                    break
+
             fecha_norm = normalizar_fecha_iso(fec, hor)
 
-            portico = str(fila.get("Pórtico", fila.get("Portico", fila.get("PORTICO", fila.get("PuntoCobro", "---"))))).strip()
-            if portico == "nan": portico = "---"
+            portico = "---"
+            for c in ["Pórtico", "Portico", "PORTICO", "PuntoCobro", "Punto_Cobro", "Pórtico / Entrada", "Pórtico Entrada"]:
+                if c in fila and pd.notna(fila[c]):
+                    portico = str(fila[c]).strip().replace('"', '')
+                    break
+            if portico.lower() == "nan": portico = "---"
 
-            eje = str(fila.get("Eje", fila.get("Lugar", ""))).strip()
-            autopista = "Autopista Central" if ("Ruta 5" in eje or "General Velasquez" in eje or "Velasquez" in eje) else "Autopase"
+            # Identificación de autopista
+            eje = ""
+            for c in ["Eje", "Lugar", "Autopista", "Concesión", "EJE"]:
+                if c in fila and pd.notna(fila[c]):
+                    eje = str(fila[c]).strip().replace('"', '')
+                    break
+            
+            if "Ruta 5" in eje or "General Velasquez" in eje or "Velasquez" in eje:
+                autopista = "Autopista Central"
+            elif "Vespucio Sur" in eje or "AVS" in eje:
+                autopista = "Vespucio Sur"
+            else:
+                autopista = "Autopase"
 
-            monto_col = fila.get("Monto", fila.get("Monto ($)", fila.get("Valor", fila.get("Importe", 0))))
-            tarifa = limpiar_monto(monto_col)
+            # Búsqueda exhaustiva del monto
+            monto_val = 0.0
+            for c in ["Monto", "Monto ($)", "Valor", "Importe", "MONTO", "Tarifa", "Total", "TOTAL", "Total ($)"]:
+                if c in fila and pd.notna(fila[c]):
+                    monto_val = limpiar_monto(fila[c])
+                    if monto_val > 0:
+                        break
 
             registros.append({
                 "autopista": autopista,
@@ -265,12 +324,14 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
                 "fecha_entrada": fecha_norm,
                 "portico_entrada": portico,
                 "portico_salida": "---",
-                "tarifa": tarifa,
+                "tarifa": monto_val,
                 "estado": "Facturada" if es_facturado else "No Facturada",
                 "boleta": boleta_defecto if es_facturado else "---"
             })
+            
+        print(f"[OK] {os.path.basename(ruta_archivo)}: {len(registros)} registros procesados.")
     except Exception as e:
-        print(f"[AVISO] Error al procesar Autopase ({os.path.basename(ruta_archivo)}): {e}")
+        print(f"[AVISO] Error al leer Autopase ({os.path.basename(ruta_archivo)}): {e}")
 
     return registros
 
@@ -283,8 +344,8 @@ def consolidar_cliente(id_cliente="automaas"):
 
     todos_los_viajes = []
 
-    # 1. Conservar registros de autopistas manuales (AVO/Otros)
-    autopistas_gestionadas = ["Costanera Norte", "RutaPass", "Vespucio Norte", "AMB", "Autopase", "Autopista Central"]
+    # 1. Conservar registros de autopistas manuales (ej. AVO)
+    autopistas_gestionadas = ["Costanera Norte", "RutaPass", "Vespucio Norte", "AMB", "Autopase", "Autopista Central", "Vespucio Sur"]
     if os.path.exists(ruta_destino_json):
         try:
             with open(ruta_destino_json, "r", encoding="utf-8") as f:
@@ -328,8 +389,8 @@ def consolidar_cliente(id_cliente="automaas"):
     for arch in sorted(glob.glob(os.path.join(carpeta_crudos, "Autopase_Facturado_*.csv"))):
         if os.path.isfile(arch):
             nombre = os.path.basename(arch)
-            partes = nombre.split("_")
-            boleta_num = partes[2] if len(partes) > 2 else "Factura"
+            m = re.search(r"Facturado_(\d+)", nombre)
+            boleta_num = m.group(1) if m else "Factura"
             print(f"[PROCESANDO] Autopase Facturado: {nombre} (Boleta: {boleta_num})")
             todos_los_viajes.extend(procesar_autopase_csv(arch, es_facturado=True, boleta_defecto=boleta_num))
 
