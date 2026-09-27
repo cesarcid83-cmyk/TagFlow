@@ -232,18 +232,31 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
     if not os.path.isfile(ruta_archivo):
         return registros
 
+    # Probar codificaciones chilenas comunes
+    codificaciones = ["latin-1", "cp1252", "utf-8-sig", "utf-8"]
+    lineas = []
+    encoding_usado = "latin-1"
+    
+    for cod in codificaciones:
+        try:
+            with open(ruta_archivo, "r", encoding=cod, errors="ignore") as f:
+                lineas = [l for l in f.readlines() if l.strip()]
+            if lineas:
+                encoding_usado = cod
+                break
+        except Exception:
+            continue
+
+    if not lineas:
+        return registros
+
     try:
-        with open(ruta_archivo, "r", encoding="utf-8-sig", errors="ignore") as f:
-            lineas = [l for l in f.readlines() if l.strip()]
-
-        if not lineas:
-            return registros
-
-        # Detectar la fila de encabezado
+        # Detectar el renglón donde empiezan las columnas
         indice_cabecera = 0
         delimitador = ";"
-        for i, l in enumerate(lineas[:25]):
-            if "patente" in l.lower() or "portico" in l.lower() or "pórtico" in l.lower():
+        for i, l in enumerate(lineas[:30]):
+            l_lower = l.lower()
+            if "patente" in l_lower or "portico" in l_lower or "pórtico" in l_lower:
                 indice_cabecera = i
                 if l.count(";") >= l.count(",") and l.count(";") >= l.count("\t"):
                     delimitador = ";"
@@ -258,12 +271,12 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
             skiprows=indice_cabecera,
             delimiter=delimitador,
             dtype=str,
-            encoding="utf-8-sig",
+            encoding=encoding_usado,
             on_bad_lines="skip"
         )
-        # Limpieza de nombres de columna
-        mapa_cols = {c: str(c).strip().replace('"', '') for c in df.columns}
-        df.rename(columns=mapa_cols, inplace=True)
+        
+        # Normalizar encabezados eliminando comillas y espacios
+        df.rename(columns={c: str(c).strip().replace('"', '') for c in df.columns}, inplace=True)
 
         for _, fila in df.iterrows():
             pat = ""
@@ -272,11 +285,11 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
                     pat = str(fila[c]).strip().replace('"', '')
                     break
             
-            if not pat or pat.lower() in ["nan", "none", "patente"]:
+            if not pat or pat.lower() in ["nan", "none", "patente", "placa"]:
                 continue
 
             fec = ""
-            for c in ["Fecha", "FECHA", "Fecha Paso", "Fecha Tránsito"]:
+            for c in ["Fecha", "FECHA", "Fecha Paso", "Fecha Tránsito", "Fecha_Tránsito"]:
                 if c in fila and pd.notna(fila[c]):
                     fec = str(fila[c]).strip().replace('"', '')
                     break
@@ -294,23 +307,12 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
                 if c in fila and pd.notna(fila[c]):
                     portico = str(fila[c]).strip().replace('"', '')
                     break
-            if portico.lower() == "nan": portico = "---"
+            if portico.lower() == "nan": 
+                portico = "---"
 
-            # Identificación de autopista
-            eje = ""
-            for c in ["Eje", "Lugar", "Autopista", "Concesión", "EJE"]:
-                if c in fila and pd.notna(fila[c]):
-                    eje = str(fila[c]).strip().replace('"', '')
-                    break
-            
-            if "Ruta 5" in eje or "General Velasquez" in eje or "Velasquez" in eje:
-                autopista = "Autopista Central"
-            elif "Vespucio Sur" in eje or "AVS" in eje:
-                autopista = "Vespucio Sur"
-            else:
-                autopista = "Autopase"
+            # UNIFICAR SIEMPRE BAJO 'Autopase' PARA QUE EL FILTRO DE LA WEB NO LO EXCLUYA
+            autopista = "Autopase"
 
-            # Búsqueda exhaustiva del monto
             monto_val = 0.0
             for c in ["Monto", "Monto ($)", "Valor", "Importe", "MONTO", "Tarifa", "Total", "TOTAL", "Total ($)"]:
                 if c in fila and pd.notna(fila[c]):
@@ -329,7 +331,7 @@ def procesar_autopase_csv(ruta_archivo, es_facturado=False, boleta_defecto="---"
                 "boleta": boleta_defecto if es_facturado else "---"
             })
             
-        print(f"[OK] {os.path.basename(ruta_archivo)}: {len(registros)} registros procesados.")
+        print(f"[OK] {os.path.basename(ruta_archivo)}: {len(registros)} registros procesados como {('Facturada (Boleta ' + boleta_defecto + ')') if es_facturado else 'No Facturada'}.")
     except Exception as e:
         print(f"[AVISO] Error al leer Autopase ({os.path.basename(ruta_archivo)}): {e}")
 
@@ -344,7 +346,7 @@ def consolidar_cliente(id_cliente="automaas"):
 
     todos_los_viajes = []
 
-    # 1. Conservar registros de autopistas manuales (ej. AVO)
+    # 1. Conservar registros de autopistas manuales (AVO/Otros)
     autopistas_gestionadas = ["Costanera Norte", "RutaPass", "Vespucio Norte", "AMB", "Autopase", "Autopista Central", "Vespucio Sur"]
     if os.path.exists(ruta_destino_json):
         try:
@@ -385,20 +387,26 @@ def consolidar_cliente(id_cliente="automaas"):
             print(f"[PROCESANDO] Vespucio Norte No Facturado: {os.path.basename(arch)}")
             todos_los_viajes.extend(procesar_vespucio_norte_nofacturado(arch))
 
-    # 7. Autopase Facturado
-    for arch in sorted(glob.glob(os.path.join(carpeta_crudos, "Autopase_Facturado_*.csv"))):
-        if os.path.isfile(arch):
-            nombre = os.path.basename(arch)
-            m = re.search(r"Facturado_(\d+)", nombre)
-            boleta_num = m.group(1) if m else "Factura"
-            print(f"[PROCESANDO] Autopase Facturado: {nombre} (Boleta: {boleta_num})")
-            todos_los_viajes.extend(procesar_autopase_csv(arch, es_facturado=True, boleta_defecto=boleta_num))
+    # 7. Autopase Facturado (Archivos con prefijo Autopase_Facturado_)
+    archivos_facturados_ap = [
+        f for f in glob.glob(os.path.join(carpeta_crudos, "Autopase_Facturado_*"))
+        if os.path.isfile(f)
+    ]
+    for arch in sorted(archivos_facturados_ap):
+        nombre = os.path.basename(arch)
+        m = re.search(r"Facturado_(\d+)", nombre)
+        boleta_num = m.group(1) if m else "Factura"
+        print(f"[PROCESANDO] Autopase Facturado: {nombre} (Boleta: {boleta_num})")
+        todos_los_viajes.extend(procesar_autopase_csv(arch, es_facturado=True, boleta_defecto=boleta_num))
 
-    # 8. Autopase No Facturado
-    for arch in sorted(glob.glob(os.path.join(carpeta_crudos, "Autopase_*.csv"))):
-        if os.path.isfile(arch) and "Facturado" not in os.path.basename(arch):
-            print(f"[PROCESANDO] Autopase No Facturado: {os.path.basename(arch)}")
-            todos_los_viajes.extend(procesar_autopase_csv(arch, es_facturado=False, boleta_defecto="---"))
+    # 8. Autopase No Facturado (Archivos con prefijo Autopase_ sin Facturado)
+    archivos_nofacturados_ap = [
+        f for f in glob.glob(os.path.join(carpeta_crudos, "Autopase_*"))
+        if os.path.isfile(f) and "Facturado" not in os.path.basename(f)
+    ]
+    for arch in sorted(archivos_nofacturados_ap):
+        print(f"[PROCESANDO] Autopase No Facturado: {os.path.basename(arch)}")
+        todos_los_viajes.extend(procesar_autopase_csv(arch, es_facturado=False, boleta_defecto="---"))
 
     # 9. Deduplicación canónica
     viajes_unicos = {}
