@@ -7,8 +7,8 @@ import pandas as pd
 
 def normalizar_fecha_iso(fecha_raw, hora_raw="00:00:00"):
     """
-    Convierte cualquier entrada a formato estricto: 'YYYY-MM-DD HH:MM:SS'
-    Evita los errores de 'undefined undefined' en el dashboard.
+    Convierte cualquier formato a 'YYYY-MM-DD HH:MM:SS' estricto.
+    Elimina comillas, espacios residuales y garantiza compatibilidad con el dashboard.
     """
     if not fecha_raw or str(fecha_raw).strip() == "" or str(fecha_raw).lower() == "nan":
         return ""
@@ -16,17 +16,17 @@ def normalizar_fecha_iso(fecha_raw, hora_raw="00:00:00"):
     f_str = str(fecha_raw).strip().replace('"', '')
     h_str = str(hora_raw).strip().replace('"', '') if hora_raw else "00:00:00"
 
-    # Si la fecha ya incluye la hora en la misma cadena
+    # Si la fecha ya incluye la hora
     if " " in f_str:
         partes = f_str.split(" ")
         f_str = partes[0]
         h_str = partes[1]
 
-    # Asegurar segundos en la hora (HH:MM -> HH:MM:00)
+    # Formatear hora con segundos garantizados
     partes_hora = h_str.split(":")
     if len(partes_hora) == 2:
         h_str = f"{partes_hora[0].zfill(2)}:{partes_hora[1].zfill(2)}:00"
-    elif len(partes_hora) == 3:
+    elif len(partes_hora) >= 3:
         h_str = f"{partes_hora[0].zfill(2)}:{partes_hora[1].zfill(2)}:{partes_hora[2].zfill(2)}"
 
     cadena_unida = f"{f_str} {h_str}"
@@ -67,7 +67,6 @@ def procesar_csv_costanera(ruta_archivo):
             if not patente:
                 continue
 
-            # Lee FechaHora o columnas separadas según versión de Costanera
             fechahora_raw = fila.get("FechaHora", "").strip().replace('"', '')
             if not fechahora_raw:
                 f_part = fila.get("Fecha", "").strip().replace('"', '')
@@ -157,16 +156,20 @@ def procesar_rutapass_facturado(ruta_archivo):
         print(f"[AVISO] Error al leer factura RutaPass ({ruta_archivo}): {e}")
     return registros
 
-def consolidar_cliente(id_cliente="automaas"):
+def regenerar_desde_cero(id_cliente="automaas"):
     directorio_actual = os.path.dirname(os.path.abspath(__file__))
     directorio_raiz = os.path.dirname(directorio_actual)
 
     carpeta_crudos = os.path.join(directorio_raiz, "crudos", id_cliente)
     ruta_destino_json = os.path.join(directorio_raiz, "docs", id_cliente, "data.json")
 
+    print("\n=======================================================")
+    print(f"RECONSTRUCCIÓN LIMPIA DE DATA.JSON PARA: {id_cliente}")
+    print("=======================================================")
+
     todos_los_viajes = []
 
-    # Cargar y preservar registros de otras autopistas (como AVO)
+    # 1. Conservar ÚNICAMENTE las autopistas que no sean Costanera ni RutaPass (ej. AVO)
     if os.path.exists(ruta_destino_json):
         try:
             with open(ruta_destino_json, "r", encoding="utf-8") as f:
@@ -174,28 +177,31 @@ def consolidar_cliente(id_cliente="automaas"):
                 for v in anteriores:
                     if v.get("autopista") not in ["Costanera Norte", "RutaPass"]:
                         todos_los_viajes.append(v)
-                print(f"[INFO] Registros base conservados (AVO/Otros): {len(todos_los_viajes)}")
+            print(f"[PURGA REALIZADA] Registros previos de Costanera y RutaPass descartados.")
+            print(f"[BASE MANTENIDA] Registros de otras autopistas (AVO): {len(todos_los_viajes)}")
         except Exception as e:
-            print(f"[AVISO] Error al leer data.json: {e}")
+            print(f"[AVISO] No se pudo leer {ruta_destino_json}: {e}")
 
-    # 1. Costanera Norte
-    archivos_costanera = glob.glob(os.path.join(carpeta_crudos, "Costanera_*.csv"))
+    # 2. Reingesta limpia de Costanera Norte desde crudos/
+    archivos_costanera = sorted(glob.glob(os.path.join(carpeta_crudos, "Costanera_*.csv")))
     for arch in archivos_costanera:
-        print(f"[PROCESANDO] Costanera: {os.path.basename(arch)}")
+        print(f"[PROCESANDO] Crudo Costanera: {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_csv_costanera(arch))
 
-    # 2. RutaPass No Facturado
-    for arch in glob.glob(os.path.join(carpeta_crudos, "RutaPass_*.xls*")):
-        print(f"[PROCESANDO] RutaPass No Facturado: {os.path.basename(arch)}")
+    # 3. Reingesta limpia de RutaPass No Facturado desde crudos/
+    archivos_rutapass_nofac = sorted(glob.glob(os.path.join(carpeta_crudos, "RutaPass_*.xls*")))
+    for arch in archivos_rutapass_nofac:
+        print(f"[PROCESANDO] Crudo RutaPass (No Facturado): {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_rutapass_no_facturado(arch))
 
-    # 3. RutaPass Facturado
-    archivos_factura = glob.glob(os.path.join(directorio_raiz, "RutaPass_Factura_*.xlsx")) or glob.glob(os.path.join(carpeta_crudos, "RutaPass_Factura_*.xlsx"))
-    for arch in archivos_factura:
+    # 4. Reingesta limpia de RutaPass Facturado desde el Excel procesado
+    archivos_facturas = sorted(glob.glob(os.path.join(directorio_raiz, "RutaPass_Factura_*.xlsx")) or 
+                               glob.glob(os.path.join(carpeta_crudos, "RutaPass_Factura_*.xlsx")))
+    for arch in archivos_facturas:
         print(f"[PROCESANDO] Factura RutaPass: {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_rutapass_facturado(arch))
 
-    # Deduplicación limpia
+    # 5. Deduplicación canónica
     viajes_unicos = {}
     for v in todos_los_viajes:
         clave = f"{v.get('autopista')}_{v.get('patente')}_{v.get('fecha_entrada')}_{v.get('portico_entrada')}_{v.get('tarifa')}"
@@ -208,9 +214,11 @@ def consolidar_cliente(id_cliente="automaas"):
     with open(ruta_destino_json, "w", encoding="utf-8") as f:
         json.dump(lista_final, f, indent=2, ensure_ascii=False)
 
-    print(f"\n[ÉXITO] Consolidación completada:")
-    print(f"-> Total pasadas únicas en data.json: {len(lista_final)}")
-    print(f"-> Guardado en: {ruta_destino_json}")
+    print("\n=======================================================")
+    print(f"[ÉXITO] Archivo data.json reescrito completamente.")
+    print(f"-> Total registros únicos en formato ISO: {len(lista_final)}")
+    print(f"-> Ruta: {ruta_destino_json}")
+    print("=======================================================\n")
 
 if __name__ == "__main__":
-    consolidar_cliente("automaas")
+    regenerar_desde_cero("automaas")
