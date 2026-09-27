@@ -6,9 +6,6 @@ from datetime import datetime
 import pandas as pd
 
 def normalizar_fecha_iso(fecha_raw, hora_raw="00:00:00"):
-    """
-    Convierte cualquier formato a 'YYYY-MM-DD HH:MM:SS' estricto.
-    """
     if not fecha_raw or str(fecha_raw).strip() == "" or str(fecha_raw).lower() == "nan":
         return ""
     
@@ -48,9 +45,6 @@ def normalizar_fecha_iso(fecha_raw, hora_raw="00:00:00"):
     return cadena_unida
 
 def limpiar_monto_vn(monto_raw):
-    """
-    Limpia los montos de Vespucio Norte (ej. 391,910 -> 391.91 o 69,34 -> 69.34).
-    """
     if monto_raw is None:
         return 0.0
     s = str(monto_raw).replace("$", "").replace(" ", "").strip()
@@ -64,9 +58,6 @@ def limpiar_monto_vn(monto_raw):
         return 0.0
 
 def limpiar_monto_general(monto_raw):
-    """
-    Limpia montos estándar de Costanera y RutaPass con puntos de miles.
-    """
     if monto_raw is None:
         return 0.0
     s = str(monto_raw).replace("$", "").replace(" ", "").replace(".", "").replace(",", ".").strip()
@@ -187,7 +178,6 @@ def procesar_vespucio_norte_nofacturado(ruta_archivo):
             hor = str(fila.get("Hora", "00:00:00")).strip()
             fecha_norm = normalizar_fecha_iso(fec, hor)
 
-            # Admite 'Pórtico' (con tilde) o 'Portico'
             portico_val = str(fila.get("Pórtico", fila.get("Portico", "---"))).strip()
             portico_entrada = f"Pórtico {portico_val}" if portico_val not in ["---", "nan"] else "---"
             
@@ -221,7 +211,6 @@ def procesar_vespucio_norte_facturado(ruta_archivo, boleta_defecto="10156275"):
             hor = str(fila.get("Hora", "00:00:00")).strip()
             fecha_norm = normalizar_fecha_iso(fec, hor)
 
-            # En el facturado viene como 'Portico' sin tilde
             portico_val = str(fila.get("Portico", fila.get("Pórtico", "---"))).strip()
             portico_entrada = f"Pórtico {portico_val}" if portico_val not in ["---", "nan"] else "---"
             
@@ -280,18 +269,18 @@ def consolidar_cliente(id_cliente="automaas"):
         print(f"[PROCESANDO] Factura RutaPass: {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_rutapass_facturado(arch))
 
-    # 5. Vespucio Norte Facturado
+    # 5. Vespucio Norte Facturado (busca archivos con prefijo 'VespucioNorte_Facturado_')
     archivos_vn_fac = glob.glob(os.path.join(carpeta_crudos, "VespucioNorte_Facturado_*.xlsx"))
     for arch in sorted(archivos_vn_fac):
         print(f"[PROCESANDO] Vespucio Norte Facturado: {os.path.basename(arch)}")
         todos_los_viajes.extend(procesar_vespucio_norte_facturado(arch))
 
-    # 6. Vespucio Norte No Facturado
-    archivos_vn_nofac = glob.glob(os.path.join(carpeta_crudos, "VespucioNorte_NoFacturado_*.xlsx")) or \
-                        glob.glob(os.path.join(carpeta_crudos, "VespucioNorte_27092026_*.xlsx"))
-    for arch in sorted(archivos_vn_nofac):
-        if "Facturado" not in os.path.basename(arch):
-            print(f"[PROCESANDO] Vespucio Norte No Facturado: {os.path.basename(arch)}")
+    # 6. Vespucio Norte No Facturado (detecta 'NoFacturado' o la descarga inicial por fecha)
+    archivos_vn_todos = glob.glob(os.path.join(carpeta_crudos, "VespucioNorte_*.xlsx"))
+    for arch in sorted(archivos_vn_todos):
+        nombre = os.path.basename(arch)
+        if "VespucioNorte_Facturado_" not in nombre:
+            print(f"[PROCESANDO] Vespucio Norte No Facturado: {nombre}")
             todos_los_viajes.extend(procesar_vespucio_norte_nofacturado(arch))
 
     # 7. Deduplicación canónica
