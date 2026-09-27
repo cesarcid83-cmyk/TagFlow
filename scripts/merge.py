@@ -5,12 +5,31 @@ import csv
 from datetime import datetime
 
 def parsear_fecha_costanera(fecha_str):
-    # Convierte "28/08/2026 06:34:00" a "2026-08-28 06:34:00"
     try:
         dt = datetime.strptime(fecha_str.strip(), "%d/%m/%Y %H:%M:%S")
         return dt.strftime("%Y-%m-%d %H:%M:%S")
     except Exception:
         return fecha_str.strip()
+
+def parsear_fecha_rutapass(fecha_str, hora_str):
+    try:
+        fecha_limpia = fecha_str.strip()
+        hora_limpia = hora_str.strip()
+        if len(hora_limpia.split(":")) == 2:
+            hora_limpia += ":00"
+        dt = datetime.strptime(f"{fecha_limpia} {hora_limpia}", "%d-%m-%Y %H:%M:%S")
+        return dt.strftime("%Y-%m-%d %H:%M:%S")
+    except Exception:
+        return f"{fecha_str} {hora_str}".strip()
+
+def limpiar_monto(monto_raw):
+    if not monto_raw:
+        return 0.0
+    s = str(monto_raw).replace("$", "").replace(" ", "").replace(".", "").replace(",", ".").strip()
+    try:
+        return float(s)
+    except ValueError:
+        return 0.0
 
 def procesar_csv_costanera(ruta_archivo):
     registros = []
@@ -21,16 +40,9 @@ def procesar_csv_costanera(ruta_archivo):
             if not patente:
                 continue
 
-            fecha_hora_raw = fila.get("FechaHora", "").strip().replace('"', '')
-            fecha_norm = parsear_fecha_costanera(fecha_hora_raw)
+            fecha_norm = parsear_fecha_costanera(fila.get("FechaHora", "").strip().replace('"', ''))
             portico = fila.get("PuntoCobro", "").strip().replace('"', '')
-            importe_str = fila.get("Importe", "0").strip().replace('"', '').replace('.', '').replace(',', '.')
-            
-            try:
-                tarifa = float(importe_str)
-            except ValueError:
-                tarifa = 0.0
-
+            tarifa = limpiar_monto(fila.get("Importe", "0"))
             nombre_corto = fila.get("NombreCorto", "CN").strip().replace('"', '')
             autopista = "Costanera Norte" if nombre_corto == "CN" else nombre_corto
 
@@ -46,8 +58,27 @@ def procesar_csv_costanera(ruta_archivo):
             })
     return registros
 
+def procesar_excel_rutapass_facturado(ruta_archivo):
+    import pandas as pd
+    registros = []
+    try:
+        df = pd.read_excel(ruta_archivo)
+        for _, fila in df.iterrows():
+            registros.append({
+                "autopista": str(fila.get("Autopista", "RutaPass")),
+                "patente": str(fila.get("Patente", "")).strip(),
+                "fecha_entrada": str(fila.get("Fecha Entrada", "")).strip(),
+                "portico_entrada": str(fila.get("Pórtico Entrada", fila.get("Portico Entrada", "---"))).strip(),
+                "portico_salida": str(fila.get("Pórtico Salida", fila.get("Portico Salida", "---"))).strip(),
+                "tarifa": float(fila.get("Tarifa", 0.0)),
+                "estado": str(fila.get("Estado", "Facturada")),
+                "boleta": str(fila.get("Boleta", "3457040"))
+            })
+    except Exception as e:
+        print(f"[AVISO] Error al leer {ruta_archivo}: {e}")
+    return registros
+
 def consolidar_cliente(id_cliente="automaas"):
-    # Como merge.py está en scripts/, subimos un nivel a la raíz de TagFlow
     directorio_actual = os.path.dirname(os.path.abspath(__file__))
     directorio_raiz = os.path.dirname(directorio_actual)
 
@@ -56,7 +87,7 @@ def consolidar_cliente(id_cliente="automaas"):
 
     todos_los_viajes = []
 
-    # Cargar datos existentes en data.json (para conservar los de AVO u otros)
+    # Cargar datos existentes en data.json (AVO, etc.)
     if os.path.exists(ruta_destino_json):
         try:
             with open(ruta_destino_json, "r", encoding="utf-8") as f:
@@ -65,14 +96,20 @@ def consolidar_cliente(id_cliente="automaas"):
         except Exception as e:
             print(f"[AVISO] No se pudo leer {ruta_destino_json}: {e}")
 
-    # Procesar archivos CSV de Costanera Norte
+    # 1. Costanera Norte
     archivos_costanera = glob.glob(os.path.join(carpeta_crudos, "Costanera_*.csv"))
     for arch in archivos_costanera:
-        print(f"[PROCESANDO] Leyendo: {os.path.basename(arch)}")
         nuevos = procesar_csv_costanera(arch)
         todos_los_viajes.extend(nuevos)
 
-    # Deduplicación con clave única
+    # 2. RutaPass Facturado (Excel procesado)
+    archivos_facturas_rp = glob.glob(os.path.join(directorio_raiz, "RutaPass_Factura_*.xlsx"))
+    for arch in archivos_facturas_rp:
+        print(f"[PROCESANDO] Factura RutaPass: {os.path.basename(arch)}")
+        nuevos = procesar_excel_rutapass_facturado(arch)
+        todos_los_viajes.extend(nuevos)
+
+    # Deduplicación por clave única
     viajes_unicos = {}
     for v in todos_los_viajes:
         clave = f"{v.get('autopista')}_{v.get('patente')}_{v.get('fecha_entrada')}_{v.get('portico_entrada')}_{v.get('tarifa')}"
