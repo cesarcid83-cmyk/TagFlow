@@ -11710,15 +11710,5 @@
     "estado": "Facturada",
     "boleta": "3582779",
     "id_transito": "2b53009cc0622791e50ab1b89787298c"
-  },
-  {
-    "autopista": "AMB",
-    "patente": "KZGL59",
-    "fecha_entrada": "19/09/2026 03:28:00 00:00:00",
-    "portico_entrada": "P30 NS",
-    "portico_salida": "---",
-    "tarifa": 889.0,
-    "estado": "No Facturada",
-    "boleta": "---"
   }
 ]
