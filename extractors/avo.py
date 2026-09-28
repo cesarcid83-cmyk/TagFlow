@@ -12,12 +12,12 @@ from selenium.webdriver.support import expected_conditions as EC
 def extraer_avo(client_id, rut, password, base_dir=None):
     """
     Ejecuta la extracción de viajes de AVO para un cliente específico
-    y guarda los archivos Excel en data/<client_id>/raw/
+    y guarda los archivos Excel en crudos/<client_id>/
     """
     if base_dir is None:
         base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-    target_raw_dir = os.path.join(base_dir, "data", client_id, "raw")
+    target_raw_dir = os.path.join(base_dir, "crudos", client_id)
     temp_download_dir = os.path.join(base_dir, "temp_downloads", f"avo_{client_id}")
 
     os.makedirs(target_raw_dir, exist_ok=True)
@@ -68,7 +68,7 @@ def extraer_avo(client_id, rut, password, base_dir=None):
         driver.get("https://www.avo.cl/cliente/detalle_viajes")
         time.sleep(3)
         
-        # Rango de fechas: últimos 60 días hasta la fecha de hoy
+        # Rango de fechas: desde 01-08-2026 hasta hoy
         fecha_inicio = "01-08-2026"
         fecha_actual = datetime.now().strftime("%d-%m-%Y")
         rango_fechas = f"{fecha_inicio} - {fecha_actual}"
@@ -122,13 +122,13 @@ def extraer_avo(client_id, rut, password, base_dir=None):
                 archivos = glob.glob(os.path.join(temp_download_dir, "*.xls*"))
                 if archivos:
                     archivo_reciente = max(archivos, key=os.path.getctime)
-                    nuevo_nombre = f"avo_{patente_val}_{fecha_hoy}.xlsx"
+                    nuevo_nombre = f"AVO_{patente_val}_{fecha_hoy}.xlsx"
                     ruta_final = os.path.join(target_raw_dir, nuevo_nombre)
                     if os.path.exists(ruta_final):
                         os.remove(ruta_final)
                     shutil.move(archivo_reciente, ruta_final)
                     archivos_descargados.append(ruta_final)
-                    print(f"[OK] Archivo guardado: {ruta_final}")
+                    print(f"[OK] Archivo guardado en crudos: {nuevo_nombre}")
             except Exception as err:
                 print(f"[AVISO] Error al descargar Excel para patente {patente_val}: {err}")
 
@@ -152,7 +152,6 @@ def extraer_avo(client_id, rut, password, base_dir=None):
 
 
 def ejecutar_desde_config():
-    """Lee config/clients.json y ejecuta la extracción si el servicio avo está activo."""
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     config_path = os.path.join(base_dir, "config", "clients.json")
 

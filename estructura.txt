@@ -1,0 +1,108 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es FC80-61F0
+C:.
+|   estructura.txt
+|   
++---config
+|       clients.json
+|       
++---crudos
+|   \---automaas
++---crudos_backup
+|   \---automaas
+|           Autopase_CYPW26_27092026_080544.csv
+|           Autopase_Facturado_0020625365_27092026_101653.csv
+|           Autopase_Facturado_0020821947_27092026_101629.csv
+|           Autopase_HXJJ44_27092026_080558.csv
+|           Autopase_KDRJ20_27092026_080609.csv
+|           Autopase_KXZS95_27092026_080621.csv
+|           Autopase_KZGL59_27092026_080632.csv
+|           Autopase_LDWP36_27092026_080643.csv
+|           Autopase_LJDV98_27092026_080654.csv
+|           Autopase_LKGZ52_27092026_080706.csv
+|           Autopase_LPPZ24_27092026_080717.csv
+|           Autopase_LPPZ31_27092026_080728.csv
+|           Autopase_NoFacturado_CYPW26_27092026_082434.csv
+|           Autopase_NoFacturado_CYPW26_27092026_083143.csv
+|           Autopase_NoFacturado_CYPW26_27092026_083838.csv
+|           Autopase_NoFacturado_CYPW26_27092026_084439.csv
+|           Autopase_NoFacturado_CYPW26_27092026_085225.csv
+|           Autopase_NoFacturado_HXJJ44_27092026_082446.csv
+|           Autopase_NoFacturado_HXJJ44_27092026_083156.csv
+|           Autopase_NoFacturado_HXJJ44_27092026_083850.csv
+|           Autopase_NoFacturado_HXJJ44_27092026_084451.csv
+|           Autopase_NoFacturado_HXJJ44_27092026_085239.csv
+|           Autopase_NoFacturado_KDRJ20_27092026_082459.csv
+|           Autopase_NoFacturado_KDRJ20_27092026_083208.csv
+|           Autopase_NoFacturado_KDRJ20_27092026_083902.csv
+|           Autopase_NoFacturado_KDRJ20_27092026_084503.csv
+|           Autopase_NoFacturado_KDRJ20_27092026_085252.csv
+|           Autopase_NoFacturado_KXZS95_27092026_082511.csv
+|           Autopase_NoFacturado_KXZS95_27092026_083220.csv
+|           Autopase_NoFacturado_KXZS95_27092026_083915.csv
+|           Autopase_NoFacturado_KXZS95_27092026_084516.csv
+|           Autopase_NoFacturado_KXZS95_27092026_085305.csv
+|           Autopase_NoFacturado_KZGL59_27092026_082524.csv
+|           Autopase_NoFacturado_KZGL59_27092026_083232.csv
+|           Autopase_NoFacturado_KZGL59_27092026_083927.csv
+|           Autopase_NoFacturado_KZGL59_27092026_084528.csv
+|           Autopase_NoFacturado_KZGL59_27092026_085319.csv
+|           Autopase_NoFacturado_LDWP36_27092026_082536.csv
+|           Autopase_NoFacturado_LDWP36_27092026_083245.csv
+|           Autopase_NoFacturado_LDWP36_27092026_083940.csv
+|           Autopase_NoFacturado_LDWP36_27092026_084540.csv
+|           Autopase_NoFacturado_LDWP36_27092026_085332.csv
+|           Autopase_NoFacturado_LJDV98_27092026_082548.csv
+|           Autopase_NoFacturado_LJDV98_27092026_083257.csv
+|           Autopase_NoFacturado_LJDV98_27092026_083952.csv
+|           Autopase_NoFacturado_LJDV98_27092026_084553.csv
+|           Autopase_NoFacturado_LJDV98_27092026_085346.csv
+|           Autopase_NoFacturado_LKGZ52_27092026_082601.csv
+|           Autopase_NoFacturado_LKGZ52_27092026_083309.csv
+|           Autopase_NoFacturado_LKGZ52_27092026_084004.csv
+|           Autopase_NoFacturado_LKGZ52_27092026_084605.csv
+|           Autopase_NoFacturado_LKGZ52_27092026_085400.csv
+|           Autopase_NoFacturado_LPPZ24_27092026_082613.csv
+|           Autopase_NoFacturado_LPPZ24_27092026_083321.csv
+|           Autopase_NoFacturado_LPPZ24_27092026_084017.csv
+|           Autopase_NoFacturado_LPPZ24_27092026_084617.csv
+|           Autopase_NoFacturado_LPPZ24_27092026_085413.csv
+|           Autopase_NoFacturado_LPPZ31_27092026_082626.csv
+|           Autopase_NoFacturado_LPPZ31_27092026_083334.csv
+|           Autopase_NoFacturado_LPPZ31_27092026_084029.csv
+|           Autopase_NoFacturado_LPPZ31_27092026_084630.csv
+|           Autopase_NoFacturado_LPPZ31_27092026_085427.csv
+|           Autopase_NoFacturado_PJHJ69_27092026_082638.csv
+|           Autopase_NoFacturado_PJHJ69_27092026_083346.csv
+|           Autopase_NoFacturado_PJHJ69_27092026_084042.csv
+|           Autopase_NoFacturado_PJHJ69_27092026_084642.csv
+|           Autopase_NoFacturado_PJHJ69_27092026_085442.csv
+|           Autopase_PJHJ69_27092026_080740.csv
+|           Costanera_28082026_27092026_050501.csv
+|           Costanera_28082026_27092026_063433.csv
+|           VespucioNorte_27092026_071419.xlsx
+|           VespucioNorte_Facturado_27092026_072615.xlsx
+|           VespucioNorte_NoFacturado_27092026_072635.xlsx
+|           
++---docs
+|   \---automaas
+|           data.json
+|           index.html
+|           
++---extractors
+|       autopase.py
+|       avo.py
+|       config_manager.py
+|       costanera.py
+|       rutapass.py
+|       vespucio_norte.py
+|       vespucio_sur.py
+|       
++---scripts
+|       limpiar_fechas.py
+|       merge.py
+|       procesar_factura_rutapass.py
+|       rebuild_data.py
+|       run_pipeline.py
+|       
+\---temp_downloads
